@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}",
+    "Language": "SFX",
+    "Hash": "{105E8DFF-2F72-6346-9292-89100AA0BBB9}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBank",
+    "ShortName": "Main_SoundBank",
+    "Path": "Main_SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "442075739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_The_Ghosts_01.wav",
+      "CachePath": "SFX/Music_The_Ghosts_01_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "173.376",
+      "DurationMax": "173.376",
+      "MediaRefs": [
+       {
+        "Id": "442075739"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{06C15F0F-F21B-0AF4-A623-60B4A5D46DA2}"
+ }
+}

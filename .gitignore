@@ -1,0 +1,50 @@
+# ==========================
+# Wwise project files to keep
+# ==========================
+*.wproj
+
+# ==========================
+# Ignore Wwise auto-generated junk
+# ==========================
+.cache/
+Actor-Mixer Hierarchy/
+Attenuations/
+Audio Devices/
+Control Surface Sessions/
+Conversion Settings/
+Dynamic Dialogue/
+Effects/
+Game Parameters/
+Interactive Music Hierarchy/
+Master-Mixer Hierarchy/
+Mixing Sessions/
+Modulators/
+Presets/
+Queries/
+SoundBanks/
+Soundcaster Sessions/
+States/
+Switches/
+Triggers/
+Virtual Acoustics/
+
+# Temporary Wwise files
+*.tmp
+*.bak
+
+# ==========================
+# OS junk
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Editor/IDE junk
+# ==========================
+.vscode/
+.idea/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="110">
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\WWISE_AUDIO_DustnDeath.wproj" DateLow="1758825255" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\WWISE_AUDIO_DustnDeath.crossover.wsettings" DateLow="1758825258" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Virtual Acoustics\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Triggers\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Switches\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\States\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\SoundBanks\Default Work Unit.wwu" DateLow="1758822545" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Queries\Factory Queries.wwu" DateLow="1758817931" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Queries\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Presets\Factory Spatial Audio.wwu" DateLow="1758817931" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Presets\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Modulators\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Mixing Sessions\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Metadata\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1758822545" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Game Parameters\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Events\Default Work Unit.wwu" DateLow="1758822544" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Effects\Factory Effects.wwu" DateLow="1758817931" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Effects\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1758817931" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Conversion Settings\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Control Surface Sessions\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Audio Devices\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Attenuations\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1758819289" DateHigh="0"/>
+</ValidationCache>

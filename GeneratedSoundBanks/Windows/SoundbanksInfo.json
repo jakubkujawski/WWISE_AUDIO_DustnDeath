@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Windows",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{46EC5395-2118-47F1-BFC5-DF39196949CD}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{E8BE1533-C3DC-411B-B641-C27D6E9D5A71}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   },
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}",
+    "Language": "SFX",
+    "Hash": "{105E8DFF-2F72-6346-9292-89100AA0BBB9}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBank",
+    "ShortName": "Main_SoundBank",
+    "Path": "Main_SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "442075739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_The_Ghosts_01.wav",
+      "CachePath": "SFX/Music_The_Ghosts_01_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "173.376",
+      "DurationMax": "173.376",
+      "MediaRefs": [
+       {
+        "Id": "442075739"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B354F3C5-00A8-26C1-29AF-A69D7A28CE23}"
+ }
+}
