@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}",
     "Language": "SFX",
-    "Hash": "{105E8DFF-2F72-6346-9292-89100AA0BBB9}",
+    "Hash": "{6D2C8359-FE71-FCB2-A8E6-CF5A4E3A28FA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBank",
     "ShortName": "Main_SoundBank",
     "Path": "Main_SoundBank.bnk",
@@ -30,9 +30,7 @@
       "Name": "Play_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
       "GUID": "{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}",
-      "DurationType": "OneShot",
-      "DurationMin": "173.376",
-      "DurationMax": "173.376",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "442075739"
@@ -42,6 +40,6 @@
     ]
    }
   ],
-  "FileHash": "{24BAF885-30D7-FCD0-277E-C76A22872AA2}"
+  "FileHash": "{E38E563F-0FD0-83EC-7641-9B9B422A72B6}"
  }
 }
