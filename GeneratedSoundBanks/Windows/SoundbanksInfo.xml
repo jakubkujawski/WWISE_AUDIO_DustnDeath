@@ -23,7 +23,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" GUID="{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}" Language="SFX" Hash="{6D2C8359-FE71-FCB2-A8E6-CF5A4E3A28FA}">
+		<SoundBank Id="2228651116" Type="User" GUID="{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}" Language="SFX" Hash="{777F7093-53B5-8868-1577-0963F5F676B9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
@@ -42,5 +42,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1DE81D11-5255-6B58-6212-A55DADB4D465}</FileHash>
+	<FileHash>{5E7E40D2-4186-43B5-EEE8-6DE80EE955CA}</FileHash>
 </SoundBanksInfo>

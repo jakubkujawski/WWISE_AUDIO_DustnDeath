@@ -25,7 +25,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_The_Ghosts_01" ID="{5551E840-E54E-4241-B079-128B459D6E8B}" ShortID="108567864">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="173376"/>
+										<Property Name="EndPosition" Type="Real64" Value="177202.53164557"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-20</Value>
@@ -104,7 +104,7 @@
 													<MusicCue Name="Exit Cue" ID="{4C699F91-E73E-43EC-9DD7-4D5EB0FA5F71}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+															<Property Name="TimeMs" Type="Real64" Value="173360.05625879"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
