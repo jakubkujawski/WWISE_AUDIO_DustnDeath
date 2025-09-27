@@ -7,7 +7,7 @@
 # Ignore Wwise auto-generated junk
 # ==========================
 .cache/
-Actor-Mixer Hierarchy/
+# Actor-Mixer Hierarchy/
 Attenuations/
 Audio Devices/
 Control Surface Sessions/
@@ -15,8 +15,8 @@ Conversion Settings/
 Dynamic Dialogue/
 Effects/
 Game Parameters/
-Interactive Music Hierarchy/
-Master-Mixer Hierarchy/
+# Interactive Music Hierarchy/
+# Master-Mixer Hierarchy/
 Mixing Sessions/
 Modulators/
 Presets/

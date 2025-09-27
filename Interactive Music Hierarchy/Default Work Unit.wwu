@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{96215092-6FF7-4CD1-82AA-391602339AA4}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{96215092-6FF7-4CD1-82AA-391602339AA4}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music Switch Container" ID="{B0C05F6D-8BF3-4809-9E89-08C9D595C778}" ShortID="341988986">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Explore Track" ID="{7BEE4BEA-9DFA-4F4F-AA7C-644691C0AC1E}" ShortID="276069559">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Music_The_Ghosts_01" ID="{5551E840-E54E-4241-B079-128B459D6E8B}" ShortID="108567864">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="173376"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_The_Ghosts_01" ID="{EBBA087E-BA64-4398-8C58-C912595A2A7F}" ShortID="915120442">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_The_Ghosts_01" ID="{61839ED8-1EE9-4A04-B356-CA27D0425AD9}">
+													<Language>SFX</Language>
+													<AudioFile>Music_The_Ghosts_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="442075739"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1A3BE70F-8FF7-4DD6-B024-A7FC5A1DC87F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{44F63C36-46FF-4A7A-BEC4-CF66B8503269}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Music_The_Ghosts_01" ID="{EFBEF5DB-B2CF-45C2-9341-9B02755D35BE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="173376"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Music_The_Ghosts_01" ID="{61839ED8-1EE9-4A04-B356-CA27D0425AD9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FE5AEFE0-ECD1-4D79-A0B1-F3084C089F26}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4C699F91-E73E-43EC-9DD7-4D5EB0FA5F71}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3B208C7C-EA3F-4407-8CEE-C2C3B0294B95}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CF05C033-20B8-4C42-A3DA-0B8D2486D45C}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A9C60CE1-24BE-46FC-A453-10184FA8ED96}" ShortID="943752266">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9DB19E8D-4D79-4878-AE6E-F90A6B9FB796}" ShortID="662382082">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_The_Ghosts_01" ID="{5551E840-E54E-4241-B079-128B459D6E8B}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{27BC1B52-E2CD-42BA-A303-6E99B4A837C8}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{E00F2903-1E9C-4BDF-BE85-894D373A04E7}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
