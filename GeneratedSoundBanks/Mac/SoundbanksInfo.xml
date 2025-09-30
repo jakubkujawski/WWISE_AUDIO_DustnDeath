@@ -15,8 +15,8 @@
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{46EC5395-2118-47F1-BFC5-DF39196949CD}" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{E8BE1533-C3DC-411B-B641-C27D6E9D5A71}" LibName="System" LibId="11403271"/>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{8B477157-08B1-4F4A-805B-CBA8F93A59A0}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{5035E6B2-C30B-4821-BB75-EA74095BD82D}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
@@ -41,80 +41,6 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2618673757" Type="Event" GUID="{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}" Language="SFX" Hash="{0FE044C9-5EE8-3C7A-465B-E6DD0D65A77F}">
-			<ObjectPath>Play_Footsteps_Walk</ObjectPath>
-			<ShortName>Play_Footsteps_Walk</ShortName>
-			<Path>Event/Play_Footsteps_Walk.bnk</Path>
-			<Media>
-				<File Id="19040402" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_04.wav</ShortName>
-					<Path>Media/19040402.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="241008188" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_01.wav</ShortName>
-					<Path>Media/241008188.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="944560543" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_03.wav</ShortName>
-					<Path>Media/944560543.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="978095168" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_02.wav</ShortName>
-					<Path>Media/978095168.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_02_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2618673757" Name="Play_Footsteps_Walk" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Walk" GUID="{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}" DurationType="OneShot" DurationMin="0.29469997" DurationMax="0.33285713">
-					<MediaRefs>
-						<MediaRef Id="19040402"/>
-						<MediaRef Id="241008188"/>
-						<MediaRef Id="944560543"/>
-						<MediaRef Id="978095168"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="2983625421" Type="Event" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" Language="SFX" Hash="{B2E61A6F-DF24-479E-5A2F-4865686181FA}">
-			<ObjectPath>Play_Footsteps_Run</ObjectPath>
-			<ShortName>Play_Footsteps_Run</ShortName>
-			<Path>Event/Play_Footsteps_Run.bnk</Path>
-			<Media>
-				<File Id="19040402" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_04.wav</ShortName>
-					<Path>Media/19040402.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="241008188" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_01.wav</ShortName>
-					<Path>Media/241008188.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="944560543" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_03.wav</ShortName>
-					<Path>Media/944560543.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="978095168" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Footsteps_Cowboy_02.wav</ShortName>
-					<Path>Media/978095168.wem</Path>
-					<CachePath>SFX/Footsteps_Cowboy_02_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2983625421" Name="Play_Footsteps_Run" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Run" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
-					<MediaRefs>
-						<MediaRef Id="19040402"/>
-						<MediaRef Id="241008188"/>
-						<MediaRef Id="944560543"/>
-						<MediaRef Id="978095168"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F04F79DD-43EF-3500-95E4-A22064D35CA1}</FileHash>
+	<FileHash>{8ED9754C-F105-E8D5-2F9A-E579A76AC966}</FileHash>
 </SoundBanksInfo>
