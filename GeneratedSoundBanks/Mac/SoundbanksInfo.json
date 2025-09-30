@@ -28,7 +28,7 @@
        "Id": "2317455096",
        "Name": "No_Output",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
-       "GUID": "{8B477157-08B1-4F4A-805B-CBA8F93A59A0}",
+       "GUID": "{C3174A87-80DB-43DB-9F09-4247AC1DF036}",
        "LibName": "No Output",
        "LibId": "11862023"
       },
@@ -36,7 +36,7 @@
        "Id": "3859886410",
        "Name": "System",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
-       "GUID": "{5035E6B2-C30B-4821-BB75-EA74095BD82D}",
+       "GUID": "{D1F47124-F343-4A63-A1F7-20A78960E1BA}",
        "LibName": "System",
        "LibId": "11403271"
       }
@@ -84,8 +84,154 @@
       ]
      }
     ]
+   },
+   {
+    "Id": "2618673757",
+    "Type": "Event",
+    "GUID": "{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}",
+    "Language": "SFX",
+    "Hash": "{0FE044C9-5EE8-3C7A-465B-E6DD0D65A77F}",
+    "ObjectPath": "Play_Footsteps_Walk",
+    "ShortName": "Play_Footsteps_Walk",
+    "Path": "Event/Play_Footsteps_Walk.bnk",
+    "Media": [
+     {
+      "Id": "19040402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_04.wav",
+      "Path": "Media/19040402.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_04_10C4C929.wem"
+     },
+     {
+      "Id": "241008188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_01.wav",
+      "Path": "Media/241008188.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
+     },
+     {
+      "Id": "944560543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_03.wav",
+      "Path": "Media/944560543.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_03_10C4C929.wem"
+     },
+     {
+      "Id": "978095168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_02.wav",
+      "Path": "Media/978095168.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_02_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2618673757",
+      "Name": "Play_Footsteps_Walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Walk",
+      "GUID": "{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29469997",
+      "DurationMax": "0.33285713",
+      "MediaRefs": [
+       {
+        "Id": "19040402"
+       },
+       {
+        "Id": "241008188"
+       },
+       {
+        "Id": "944560543"
+       },
+       {
+        "Id": "978095168"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2983625421",
+    "Type": "Event",
+    "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
+    "Language": "SFX",
+    "Hash": "{B2E61A6F-DF24-479E-5A2F-4865686181FA}",
+    "ObjectPath": "Play_Footsteps_Run",
+    "ShortName": "Play_Footsteps_Run",
+    "Path": "Event/Play_Footsteps_Run.bnk",
+    "Media": [
+     {
+      "Id": "19040402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_04.wav",
+      "Path": "Media/19040402.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_04_10C4C929.wem"
+     },
+     {
+      "Id": "241008188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_01.wav",
+      "Path": "Media/241008188.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
+     },
+     {
+      "Id": "944560543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_03.wav",
+      "Path": "Media/944560543.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_03_10C4C929.wem"
+     },
+     {
+      "Id": "978095168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_02.wav",
+      "Path": "Media/978095168.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_02_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2983625421",
+      "Name": "Play_Footsteps_Run",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Run",
+      "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28139177",
+      "DurationMax": "0.3426106",
+      "MediaRefs": [
+       {
+        "Id": "19040402"
+       },
+       {
+        "Id": "241008188"
+       },
+       {
+        "Id": "944560543"
+       },
+       {
+        "Id": "978095168"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{360E7378-24B8-4EC3-ACF3-983BF9B5F16A}"
+  "FileHash": "{1ECCBE30-CDD1-61E9-B4CA-5001D9FF36B9}"
  }
 }
