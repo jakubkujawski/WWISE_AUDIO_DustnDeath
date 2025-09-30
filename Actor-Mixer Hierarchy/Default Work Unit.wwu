@@ -1,6 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{62C27A93-1070-4129-82F5-B97F4C281550}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{62C27A93-1070-4129-82F5-B97F4C281550}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{62C27A93-1070-4129-82F5-B97F4C281550}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Footsteps_Walk" ID="{0C72B226-8E67-4C74-9A15-796085068BAA}" ShortID="588248923">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footsteps_Cowboy_01" ID="{EA90F47A-643C-4EC2-8140-B346DC536FA0}" ShortID="85406118">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_01" ID="{A1B2ABAA-2667-442F-876E-511FC84B83A0}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="241008188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_01" ID="{A1B2ABAA-2667-442F-876E-511FC84B83A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Cowboy_02" ID="{20248092-ED6E-4BC0-AA50-D89AA98BC67B}" ShortID="322098735">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_02" ID="{5A31240D-B52B-4218-B8E2-07BEBEBBFC87}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="978095168"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_02" ID="{5A31240D-B52B-4218-B8E2-07BEBEBBFC87}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Cowboy_03" ID="{B6D31EFA-260B-45A4-8EF0-28E8038093D7}" ShortID="310061328">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_03" ID="{87951710-6333-4051-9027-A51D14343257}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="944560543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_03" ID="{87951710-6333-4051-9027-A51D14343257}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Cowboy_04" ID="{DC6F0C28-DEDC-4F0E-8E1C-323CE0476BE5}" ShortID="455887137">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_04" ID="{A475BB44-AADC-43F7-A257-2E04B80F5102}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="19040402"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_04" ID="{A475BB44-AADC-43F7-A257-2E04B80F5102}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Footsteps_Run" ID="{EE5F1247-BD0B-4302-B80A-B3538AE733D6}" ShortID="5344162">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footsteps_Cowboy_01" ID="{606C1263-D624-4A9C-8950-DCAE2F8A9D39}" ShortID="254882308">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_01" ID="{369A21EF-D285-4893-AD64-09551AC88D66}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="241008188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_01" ID="{369A21EF-D285-4893-AD64-09551AC88D66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Cowboy_02" ID="{4F7F439A-36DE-4581-8C0A-D62844ED9DE5}" ShortID="132275025">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_02" ID="{EE5BE2BF-CA60-4E70-A9E0-CA495EFA7879}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="978095168"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_02" ID="{EE5BE2BF-CA60-4E70-A9E0-CA495EFA7879}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Cowboy_03" ID="{7647BD6F-22FC-4C87-AA35-4FDCE3C0E338}" ShortID="957614195">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_03" ID="{86729E56-7801-4A65-B220-9D79C12BA0C3}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="944560543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_03" ID="{86729E56-7801-4A65-B220-9D79C12BA0C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Cowboy_04" ID="{D421B1AD-1BCB-4768-90E5-6ACDA4A75FC1}" ShortID="883596607">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Cowboy_04" ID="{86573D96-137F-4C30-8478-FAD7874146D9}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Cowboy_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="19040402"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Cowboy_04" ID="{86573D96-137F-4C30-8478-FAD7874146D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

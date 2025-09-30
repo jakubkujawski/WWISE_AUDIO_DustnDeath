@@ -1,0 +1,84 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "2983625421",
+    "Type": "Event",
+    "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
+    "Language": "SFX",
+    "Hash": "{B2E61A6F-DF24-479E-5A2F-4865686181FA}",
+    "ObjectPath": "Play_Footsteps_Run",
+    "ShortName": "Play_Footsteps_Run",
+    "Path": "Event/Play_Footsteps_Run.bnk",
+    "Media": [
+     {
+      "Id": "19040402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_04.wav",
+      "Path": "Media/19040402.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_04_10C4C929.wem"
+     },
+     {
+      "Id": "241008188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_01.wav",
+      "Path": "Media/241008188.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
+     },
+     {
+      "Id": "944560543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_03.wav",
+      "Path": "Media/944560543.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_03_10C4C929.wem"
+     },
+     {
+      "Id": "978095168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footsteps_Cowboy_02.wav",
+      "Path": "Media/978095168.wem",
+      "CachePath": "SFX/Footsteps_Cowboy_02_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2983625421",
+      "Name": "Play_Footsteps_Run",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Run",
+      "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28139177",
+      "DurationMax": "0.3426106",
+      "MediaRefs": [
+       {
+        "Id": "19040402"
+       },
+       {
+        "Id": "241008188"
+       },
+       {
+        "Id": "944560543"
+       },
+       {
+        "Id": "978095168"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{68DC647D-6CA7-46FE-0E2B-4C18D8BDB83C}"
+ }
+}

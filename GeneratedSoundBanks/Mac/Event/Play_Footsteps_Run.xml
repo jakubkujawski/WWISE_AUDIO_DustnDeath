@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2983625421" Type="Event" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" Language="SFX" Hash="{B2E61A6F-DF24-479E-5A2F-4865686181FA}">
+			<ObjectPath>Play_Footsteps_Run</ObjectPath>
+			<ShortName>Play_Footsteps_Run</ShortName>
+			<Path>Event/Play_Footsteps_Run.bnk</Path>
+			<Media>
+				<File Id="19040402" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps_Cowboy_04.wav</ShortName>
+					<Path>Media/19040402.wem</Path>
+					<CachePath>SFX/Footsteps_Cowboy_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="241008188" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps_Cowboy_01.wav</ShortName>
+					<Path>Media/241008188.wem</Path>
+					<CachePath>SFX/Footsteps_Cowboy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="944560543" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps_Cowboy_03.wav</ShortName>
+					<Path>Media/944560543.wem</Path>
+					<CachePath>SFX/Footsteps_Cowboy_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="978095168" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps_Cowboy_02.wav</ShortName>
+					<Path>Media/978095168.wem</Path>
+					<CachePath>SFX/Footsteps_Cowboy_02_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2983625421" Name="Play_Footsteps_Run" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Run" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
+					<MediaRefs>
+						<MediaRef Id="19040402"/>
+						<MediaRef Id="241008188"/>
+						<MediaRef Id="944560543"/>
+						<MediaRef Id="978095168"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{53942E5C-665C-8627-3693-AC0374523032}</FileHash>
+</SoundBanksInfo>
