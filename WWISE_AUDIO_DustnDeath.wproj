@@ -13,7 +13,6 @@
 				<Language Name="SFX" ID="{EC0DE149-519A-4B54-A4F5-2F96A25B4B4E}"/>
 			</LanguageList>
 			<PropertyList>
-				<Property Name="AutoSoundBankEnabled" Type="bool" Value="True"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>

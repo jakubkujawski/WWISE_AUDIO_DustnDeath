@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{DBF35498-7606-BFE5-604A-9AAB3E75823A}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
+			<ShortName>SFX_SoundBank</ShortName>
+			<Path>SFX_SoundBank.bnk</Path>
+			<Media>
+				<File Id="19040402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Cowboy_04.wav</ShortName>
+					<CachePath>SFX/Footsteps_Cowboy_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="91713407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_05.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="233644923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_02.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="241008188" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Cowboy_01.wav</ShortName>
+					<CachePath>SFX/Footsteps_Cowboy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="419600914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_06.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="442075739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_The_Ghosts_01.wav</ShortName>
+					<CachePath>SFX/Music_The_Ghosts_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="789921876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_07.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866973072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_03.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="944560543" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Cowboy_03.wav</ShortName>
+					<CachePath>SFX/Footsteps_Cowboy_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="950612327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_04.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="978095168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Cowboy_02.wav</ShortName>
+					<CachePath>SFX/Footsteps_Cowboy_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1029818061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Footsteps_01.wav</ShortName>
+					<CachePath>SFX/Skeleton_Footsteps_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="649649136" Name="Footsteps_Skeleton" ObjectPath="\Events\Default Work Unit\Footsteps_Skeleton" GUID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" DurationType="OneShot" DurationMin="0.13054422" DurationMax="0.19907013">
+					<MediaRefs>
+						<MediaRef Id="91713407"/>
+						<MediaRef Id="233644923"/>
+						<MediaRef Id="419600914"/>
+						<MediaRef Id="789921876"/>
+						<MediaRef Id="866973072"/>
+						<MediaRef Id="950612327"/>
+						<MediaRef Id="1029818061"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2983625421" Name="Play_Footsteps_Run" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Run" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
+					<MediaRefs>
+						<MediaRef Id="19040402"/>
+						<MediaRef Id="241008188"/>
+						<MediaRef Id="944560543"/>
+						<MediaRef Id="978095168"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2618673757" Name="Play_Footsteps_Walk" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Walk" GUID="{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}" DurationType="OneShot" DurationMin="0.29469997" DurationMax="0.33285713">
+					<MediaRefs>
+						<MediaRef Id="19040402"/>
+						<MediaRef Id="241008188"/>
+						<MediaRef Id="944560543"/>
+						<MediaRef Id="978095168"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="442075739"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{934C191F-5A1C-679E-1F6E-3129E5DDBD4C}</FileHash>
+</SoundBanksInfo>

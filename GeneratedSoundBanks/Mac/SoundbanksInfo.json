@@ -14,115 +14,6 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
-    "Id": "649649136",
-    "Type": "Event",
-    "GUID": "{6F10B75B-D146-4008-BF01-9CCEA62A2361}",
-    "Language": "SFX",
-    "Hash": "{A508CEFB-8250-BA35-38C8-D92FA7CA89E5}",
-    "ObjectPath": "Footsteps_Skeleton",
-    "ShortName": "Footsteps_Skeleton",
-    "Path": "Event/Footsteps_Skeleton.bnk",
-    "Media": [
-     {
-      "Id": "91713407",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_05.wav",
-      "Path": "Media/91713407.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_05_10C4C929.wem"
-     },
-     {
-      "Id": "233644923",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_02.wav",
-      "Path": "Media/233644923.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_02_10C4C929.wem"
-     },
-     {
-      "Id": "419600914",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_06.wav",
-      "Path": "Media/419600914.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_06_10C4C929.wem"
-     },
-     {
-      "Id": "789921876",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_07.wav",
-      "Path": "Media/789921876.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_07_10C4C929.wem"
-     },
-     {
-      "Id": "866973072",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_03.wav",
-      "Path": "Media/866973072.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_03_10C4C929.wem"
-     },
-     {
-      "Id": "950612327",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_04.wav",
-      "Path": "Media/950612327.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_04_10C4C929.wem"
-     },
-     {
-      "Id": "1029818061",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Skeleton_Footsteps_01.wav",
-      "Path": "Media/1029818061.wem",
-      "CachePath": "SFX/Skeleton_Footsteps_01_10C4C929.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "649649136",
-      "Name": "Footsteps_Skeleton",
-      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Skeleton",
-      "GUID": "{6F10B75B-D146-4008-BF01-9CCEA62A2361}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.13054422",
-      "DurationMax": "0.19907013",
-      "MediaRefs": [
-       {
-        "Id": "91713407"
-       },
-       {
-        "Id": "233644923"
-       },
-       {
-        "Id": "419600914"
-       },
-       {
-        "Id": "789921876"
-       },
-       {
-        "Id": "866973072"
-       },
-       {
-        "Id": "950612327"
-       },
-       {
-        "Id": "1029818061"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
@@ -195,126 +86,145 @@
     ]
    },
    {
-    "Id": "2618673757",
-    "Type": "Event",
-    "GUID": "{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}",
+    "Id": "2641024368",
+    "Type": "User",
+    "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{0FE044C9-5EE8-3C7A-465B-E6DD0D65A77F}",
-    "ObjectPath": "Play_Footsteps_Walk",
-    "ShortName": "Play_Footsteps_Walk",
-    "Path": "Event/Play_Footsteps_Walk.bnk",
+    "Hash": "{DBF35498-7606-BFE5-604A-9AAB3E75823A}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
+    "ShortName": "SFX_SoundBank",
+    "Path": "SFX_SoundBank.bnk",
     "Media": [
      {
       "Id": "19040402",
       "Language": "SFX",
       "Streaming": "false",
-      "Location": "Loose",
+      "Location": "Memory",
       "ShortName": "Footsteps_Cowboy_04.wav",
-      "Path": "Media/19040402.wem",
       "CachePath": "SFX/Footsteps_Cowboy_04_10C4C929.wem"
+     },
+     {
+      "Id": "91713407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_05.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_05_10C4C929.wem"
+     },
+     {
+      "Id": "233644923",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_02.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_02_10C4C929.wem"
      },
      {
       "Id": "241008188",
       "Language": "SFX",
       "Streaming": "false",
-      "Location": "Loose",
+      "Location": "Memory",
       "ShortName": "Footsteps_Cowboy_01.wav",
-      "Path": "Media/241008188.wem",
       "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
+     },
+     {
+      "Id": "419600914",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_06.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_06_10C4C929.wem"
+     },
+     {
+      "Id": "442075739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_The_Ghosts_01.wav",
+      "CachePath": "SFX/Music_The_Ghosts_01_D79FB2B7.wem"
+     },
+     {
+      "Id": "789921876",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_07.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_07_10C4C929.wem"
+     },
+     {
+      "Id": "866973072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_03.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_03_10C4C929.wem"
      },
      {
       "Id": "944560543",
       "Language": "SFX",
       "Streaming": "false",
-      "Location": "Loose",
+      "Location": "Memory",
       "ShortName": "Footsteps_Cowboy_03.wav",
-      "Path": "Media/944560543.wem",
       "CachePath": "SFX/Footsteps_Cowboy_03_10C4C929.wem"
+     },
+     {
+      "Id": "950612327",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_04.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_04_10C4C929.wem"
      },
      {
       "Id": "978095168",
       "Language": "SFX",
       "Streaming": "false",
-      "Location": "Loose",
+      "Location": "Memory",
       "ShortName": "Footsteps_Cowboy_02.wav",
-      "Path": "Media/978095168.wem",
       "CachePath": "SFX/Footsteps_Cowboy_02_10C4C929.wem"
+     },
+     {
+      "Id": "1029818061",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Footsteps_01.wav",
+      "CachePath": "SFX/Skeleton_Footsteps_01_10C4C929.wem"
      }
     ],
     "Events": [
      {
-      "Id": "2618673757",
-      "Name": "Play_Footsteps_Walk",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Walk",
-      "GUID": "{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}",
+      "Id": "649649136",
+      "Name": "Footsteps_Skeleton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Skeleton",
+      "GUID": "{6F10B75B-D146-4008-BF01-9CCEA62A2361}",
       "DurationType": "OneShot",
-      "DurationMin": "0.29469997",
-      "DurationMax": "0.33285713",
+      "DurationMin": "0.13054422",
+      "DurationMax": "0.19907013",
       "MediaRefs": [
        {
-        "Id": "19040402"
+        "Id": "91713407"
        },
        {
-        "Id": "241008188"
+        "Id": "233644923"
        },
        {
-        "Id": "944560543"
+        "Id": "419600914"
        },
        {
-        "Id": "978095168"
+        "Id": "789921876"
+       },
+       {
+        "Id": "866973072"
+       },
+       {
+        "Id": "950612327"
+       },
+       {
+        "Id": "1029818061"
        }
       ]
-     }
-    ]
-   },
-   {
-    "Id": "2983625421",
-    "Type": "Event",
-    "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
-    "Language": "SFX",
-    "Hash": "{B2E61A6F-DF24-479E-5A2F-4865686181FA}",
-    "ObjectPath": "Play_Footsteps_Run",
-    "ShortName": "Play_Footsteps_Run",
-    "Path": "Event/Play_Footsteps_Run.bnk",
-    "Media": [
-     {
-      "Id": "19040402",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Footsteps_Cowboy_04.wav",
-      "Path": "Media/19040402.wem",
-      "CachePath": "SFX/Footsteps_Cowboy_04_10C4C929.wem"
      },
-     {
-      "Id": "241008188",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Footsteps_Cowboy_01.wav",
-      "Path": "Media/241008188.wem",
-      "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
-     },
-     {
-      "Id": "944560543",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Footsteps_Cowboy_03.wav",
-      "Path": "Media/944560543.wem",
-      "CachePath": "SFX/Footsteps_Cowboy_03_10C4C929.wem"
-     },
-     {
-      "Id": "978095168",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Footsteps_Cowboy_02.wav",
-      "Path": "Media/978095168.wem",
-      "CachePath": "SFX/Footsteps_Cowboy_02_10C4C929.wem"
-     }
-    ],
-    "Events": [
      {
       "Id": "2983625421",
       "Name": "Play_Footsteps_Run",
@@ -337,10 +247,45 @@
         "Id": "978095168"
        }
       ]
+     },
+     {
+      "Id": "2618673757",
+      "Name": "Play_Footsteps_Walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Walk",
+      "GUID": "{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29469997",
+      "DurationMax": "0.33285713",
+      "MediaRefs": [
+       {
+        "Id": "19040402"
+       },
+       {
+        "Id": "241008188"
+       },
+       {
+        "Id": "944560543"
+       },
+       {
+        "Id": "978095168"
+       }
+      ]
+     },
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "442075739"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{0BC3071C-FAE2-2DBC-CB02-7828B8EAD8C8}"
+  "FileHash": "{A1266E2C-292A-12A3-DE74-E6D148A585C7}"
  }
 }
