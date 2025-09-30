@@ -7,8 +7,8 @@
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{46EC5395-2118-47F1-BFC5-DF39196949CD}" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{E8BE1533-C3DC-411B-B641-C27D6E9D5A71}" LibName="System" LibId="11403271"/>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{C3174A87-80DB-43DB-9F09-4247AC1DF036}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{D1F47124-F343-4A63-A1F7-20A78960E1BA}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
@@ -16,5 +16,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3BD18A49-2138-B4B7-85C3-B1E05F690CA3}</FileHash>
+	<FileHash>{3126A512-4DF5-AF60-647E-37027F8698AB}</FileHash>
 </SoundBanksInfo>
