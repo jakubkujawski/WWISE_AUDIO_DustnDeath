@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="649649136" Type="Event" GUID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" Language="SFX" Hash="{A508CEFB-8250-BA35-38C8-D92FA7CA89E5}">
+			<ObjectPath>Footsteps_Skeleton</ObjectPath>
+			<ShortName>Footsteps_Skeleton</ShortName>
+			<Path>Event/Footsteps_Skeleton.bnk</Path>
+			<Media>
+				<File Id="91713407" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_05.wav</ShortName>
+					<Path>Media/91713407.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="233644923" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_02.wav</ShortName>
+					<Path>Media/233644923.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="419600914" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_06.wav</ShortName>
+					<Path>Media/419600914.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="789921876" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_07.wav</ShortName>
+					<Path>Media/789921876.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866973072" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_03.wav</ShortName>
+					<Path>Media/866973072.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="950612327" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_04.wav</ShortName>
+					<Path>Media/950612327.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1029818061" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Skeleton_Footsteps_01.wav</ShortName>
+					<Path>Media/1029818061.wem</Path>
+					<CachePath>SFX/Skeleton_Footsteps_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="649649136" Name="Footsteps_Skeleton" ObjectPath="\Events\Default Work Unit\Footsteps_Skeleton" GUID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" DurationType="OneShot" DurationMin="0.13054422" DurationMax="0.19907013">
+					<MediaRefs>
+						<MediaRef Id="91713407"/>
+						<MediaRef Id="233644923"/>
+						<MediaRef Id="419600914"/>
+						<MediaRef Id="789921876"/>
+						<MediaRef Id="866973072"/>
+						<MediaRef Id="950612327"/>
+						<MediaRef Id="1029818061"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D86E00FE-5F03-6B74-C3FE-87031775021B}</FileHash>
+</SoundBanksInfo>

@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Footsteps_Skeleton" ID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}">
+					<ChildrenList>
+						<Action Name="" ID="{AD15DDAD-F68B-491F-A428-6FC56082FBD8}" ShortID="954641581">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Skeleton" ID="{D3B133BC-AF1B-48AB-AB55-BCE10BC788E1}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
