@@ -28,7 +28,7 @@
        "Id": "2317455096",
        "Name": "No_Output",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
-       "GUID": "{46EC5395-2118-47F1-BFC5-DF39196949CD}",
+       "GUID": "{8B477157-08B1-4F4A-805B-CBA8F93A59A0}",
        "LibName": "No Output",
        "LibId": "11862023"
       },
@@ -36,7 +36,7 @@
        "Id": "3859886410",
        "Name": "System",
        "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
-       "GUID": "{E8BE1533-C3DC-411B-B641-C27D6E9D5A71}",
+       "GUID": "{5035E6B2-C30B-4821-BB75-EA74095BD82D}",
        "LibName": "System",
        "LibId": "11403271"
       }
@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}",
     "Language": "SFX",
-    "Hash": "{777F7093-53B5-8868-1577-0963F5F676B9}",
+    "Hash": "{8F82C3A6-B32A-0CD1-82B5-C7F4C691FD05}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBank",
     "ShortName": "Main_SoundBank",
     "Path": "Main_SoundBank.bnk",
@@ -86,6 +86,6 @@
     ]
    }
   ],
-  "FileHash": "{B18048A0-559F-1001-973F-057DA80047A9}"
+  "FileHash": "{360E7378-24B8-4EC3-ACF3-983BF9B5F16A}"
  }
 }
