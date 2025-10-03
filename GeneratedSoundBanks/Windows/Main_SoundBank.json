@@ -10,36 +10,12 @@
     "Type": "User",
     "GUID": "{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}",
     "Language": "SFX",
-    "Hash": "{8F82C3A6-B32A-0CD1-82B5-C7F4C691FD05}",
+    "Hash": "{1CDD4BCB-844F-134C-500B-F77E425889C3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBank",
     "ShortName": "Main_SoundBank",
-    "Path": "Main_SoundBank.bnk",
-    "Media": [
-     {
-      "Id": "442075739",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Music_The_Ghosts_01.wav",
-      "CachePath": "SFX/Music_The_Ghosts_01_D79FB2B7.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "2932040671",
-      "Name": "Play_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
-      "GUID": "{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "442075739"
-       }
-      ]
-     }
-    ]
+    "Path": "Main_SoundBank.bnk"
    }
   ],
-  "FileHash": "{14137687-C740-7AA2-C769-FE55E3490BC7}"
+  "FileHash": "{8417B0A4-0810-1AEA-30DA-9D77F6171845}"
  }
 }

@@ -3,150 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{62C27A93-1070-4129-82F5-B97F4C281550}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Footsteps_Walk" ID="{0C72B226-8E67-4C74-9A15-796085068BAA}" ShortID="588248923">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Footsteps_Cowboy_01" ID="{EA90F47A-643C-4EC2-8140-B346DC536FA0}" ShortID="85406118">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-30</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Footsteps_Cowboy_01" ID="{A1B2ABAA-2667-442F-876E-511FC84B83A0}">
-									<Language>SFX</Language>
-									<AudioFile>Footsteps_Cowboy_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="241008188"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Footsteps_Cowboy_01" ID="{A1B2ABAA-2667-442F-876E-511FC84B83A0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Footsteps_Cowboy_02" ID="{20248092-ED6E-4BC0-AA50-D89AA98BC67B}" ShortID="322098735">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Footsteps_Cowboy_02" ID="{5A31240D-B52B-4218-B8E2-07BEBEBBFC87}">
-									<Language>SFX</Language>
-									<AudioFile>Footsteps_Cowboy_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="978095168"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Footsteps_Cowboy_02" ID="{5A31240D-B52B-4218-B8E2-07BEBEBBFC87}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Footsteps_Cowboy_03" ID="{B6D31EFA-260B-45A4-8EF0-28E8038093D7}" ShortID="310061328">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-30</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Footsteps_Cowboy_03" ID="{87951710-6333-4051-9027-A51D14343257}">
-									<Language>SFX</Language>
-									<AudioFile>Footsteps_Cowboy_03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="944560543"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Footsteps_Cowboy_03" ID="{87951710-6333-4051-9027-A51D14343257}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Footsteps_Cowboy_04" ID="{DC6F0C28-DEDC-4F0E-8E1C-323CE0476BE5}" ShortID="455887137">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-50</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Footsteps_Cowboy_04" ID="{A475BB44-AADC-43F7-A257-2E04B80F5102}">
-									<Language>SFX</Language>
-									<AudioFile>Footsteps_Cowboy_04.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="19040402"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Footsteps_Cowboy_04" ID="{A475BB44-AADC-43F7-A257-2E04B80F5102}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Footsteps_Run" ID="{EE5F1247-BD0B-4302-B80A-B3538AE733D6}" ShortID="5344162">
+				<RandomSequenceContainer Name="Footsteps_Cowboy" ID="{EE5F1247-BD0B-4302-B80A-B3538AE733D6}" ShortID="5344162">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
@@ -471,6 +328,84 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Skeleton_Footsteps_07" ID="{FA1ED90D-DD46-4526-A687-D795AB98B4FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Skeleton_Defeat" ID="{AB50A73B-7312-42F2-B197-125E54934D29}" ShortID="274658558">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Skeleton_Defeat_001" ID="{B8F80997-FD6C-4268-9606-AB7429D7F410}" ShortID="349247660">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Skeleton_Defeat_001" ID="{3CFD8FEA-E2F3-43CE-BECB-E26FA7F335F0}">
+									<Language>SFX</Language>
+									<AudioFile>Skeleton_Defeat_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="333856010"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Skeleton_Defeat_001" ID="{3CFD8FEA-E2F3-43CE-BECB-E26FA7F335F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Skeleton_Defeat_002" ID="{20D77BC2-BC08-45C4-8CAF-F2BAA2222535}" ShortID="345116900">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Skeleton_Defeat_002" ID="{E9C4D44C-4349-44A3-AC9F-1CF12381E747}">
+									<Language>SFX</Language>
+									<AudioFile>Skeleton_Defeat_002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="732880513"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Skeleton_Defeat_002" ID="{E9C4D44C-4349-44A3-AC9F-1CF12381E747}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Skeleton_Defeat_003" ID="{AA0417DC-AB31-4292-9C2D-1BC4E7C7EA76}" ShortID="790078138">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Skeleton_Defeat_003" ID="{112E69FB-DC58-48DE-B281-9DE8654A0316}">
+									<Language>SFX</Language>
+									<AudioFile>Skeleton_Defeat_003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="470679861"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Skeleton_Defeat_003" ID="{112E69FB-DC58-48DE-B281-9DE8654A0316}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

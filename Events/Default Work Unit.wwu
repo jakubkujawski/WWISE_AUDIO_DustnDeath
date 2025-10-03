@@ -14,23 +14,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Footsteps_Walk" ID="{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}">
-					<ChildrenList>
-						<Action Name="" ID="{1A2B4EBA-05F5-4340-8540-1F0E779A12B0}" ShortID="498385550">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps_Walk" ID="{0C72B226-8E67-4C74-9A15-796085068BAA}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Footsteps_Run" ID="{601611BB-9B6D-4E95-A894-03DDDBA94267}">
+				<Event Name="Footsteps_Cowboy" ID="{601611BB-9B6D-4E95-A894-03DDDBA94267}">
 					<ChildrenList>
 						<Action Name="" ID="{DCD6ACB1-C7FC-4B85-B317-A2D1CFF8DD27}" ShortID="399626877">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps_Run" ID="{EE5F1247-BD0B-4302-B80A-B3538AE733D6}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+									<ObjectRef Name="Footsteps_Cowboy" ID="{EE5F1247-BD0B-4302-B80A-B3538AE733D6}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -42,6 +31,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps_Skeleton" ID="{D3B133BC-AF1B-48AB-AB55-BCE10BC788E1}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Skeleton_Defeat" ID="{8D48B589-B448-496D-84F3-6B38B02D61FF}">
+					<ChildrenList>
+						<Action Name="" ID="{342349A6-B538-4F83-98A3-E82054E0D82A}" ShortID="363388752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skeleton_Defeat" ID="{AB50A73B-7312-42F2-B197-125E54934D29}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

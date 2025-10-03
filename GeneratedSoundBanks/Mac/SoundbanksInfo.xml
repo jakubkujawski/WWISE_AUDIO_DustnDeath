@@ -23,25 +23,12 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" GUID="{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}" Language="SFX" Hash="{8F82C3A6-B32A-0CD1-82B5-C7F4C691FD05}">
+		<SoundBank Id="2228651116" Type="User" GUID="{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
-			<Media>
-				<File Id="442075739" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music_The_Ghosts_01.wav</ShortName>
-					<CachePath>SFX/Music_The_Ghosts_01_D79FB2B7.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="442075739"/>
-					</MediaRefs>
-				</Event>
-			</Events>
 		</SoundBank>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{DBF35498-7606-BFE5-604A-9AAB3E75823A}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{ECFD5ADE-C39A-6AE2-5F0C-751F84C8383C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -62,6 +49,10 @@
 					<ShortName>Footsteps_Cowboy_01.wav</ShortName>
 					<CachePath>SFX/Footsteps_Cowboy_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="333856010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Defeat_001.wav</ShortName>
+					<CachePath>SFX/Skeleton_Defeat_001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="419600914" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_06.wav</ShortName>
 					<CachePath>SFX/Skeleton_Footsteps_06_10C4C929.wem</CachePath>
@@ -69,6 +60,14 @@
 				<File Id="442075739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_The_Ghosts_01.wav</ShortName>
 					<CachePath>SFX/Music_The_Ghosts_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="470679861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Defeat_003.wav</ShortName>
+					<CachePath>SFX/Skeleton_Defeat_003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="732880513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skeleton_Defeat_002.wav</ShortName>
+					<CachePath>SFX/Skeleton_Defeat_002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="789921876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_07.wav</ShortName>
@@ -96,6 +95,14 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4269851612" Name="Footsteps_Cowboy" ObjectPath="\Events\Default Work Unit\Footsteps_Cowboy" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
+					<MediaRefs>
+						<MediaRef Id="19040402"/>
+						<MediaRef Id="241008188"/>
+						<MediaRef Id="944560543"/>
+						<MediaRef Id="978095168"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="649649136" Name="Footsteps_Skeleton" ObjectPath="\Events\Default Work Unit\Footsteps_Skeleton" GUID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" DurationType="OneShot" DurationMin="0.13054422" DurationMax="0.19907013">
 					<MediaRefs>
 						<MediaRef Id="91713407"/>
@@ -107,29 +114,20 @@
 						<MediaRef Id="1029818061"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2983625421" Name="Play_Footsteps_Run" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Run" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
-					<MediaRefs>
-						<MediaRef Id="19040402"/>
-						<MediaRef Id="241008188"/>
-						<MediaRef Id="944560543"/>
-						<MediaRef Id="978095168"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2618673757" Name="Play_Footsteps_Walk" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Walk" GUID="{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}" DurationType="OneShot" DurationMin="0.29469997" DurationMax="0.33285713">
-					<MediaRefs>
-						<MediaRef Id="19040402"/>
-						<MediaRef Id="241008188"/>
-						<MediaRef Id="944560543"/>
-						<MediaRef Id="978095168"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="442075739"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3782639306" Name="Skeleton_Defeat" ObjectPath="\Events\Default Work Unit\Skeleton_Defeat" GUID="{8D48B589-B448-496D-84F3-6B38B02D61FF}" DurationType="OneShot" DurationMin="1.0734468" DurationMax="1.377619">
+					<MediaRefs>
+						<MediaRef Id="333856010"/>
+						<MediaRef Id="470679861"/>
+						<MediaRef Id="732880513"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8CAF8A2-DCE8-F534-56D2-026E7C57334A}</FileHash>
+	<FileHash>{27DC6BF1-D821-B3D0-2162-2B7F6FE247C2}</FileHash>
 </SoundBanksInfo>

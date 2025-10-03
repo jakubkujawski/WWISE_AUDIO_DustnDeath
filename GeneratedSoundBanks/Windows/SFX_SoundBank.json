@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{DBF35498-7606-BFE5-604A-9AAB3E75823A}",
+    "Hash": "{ECFD5ADE-C39A-6AE2-5F0C-751F84C8383C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
      },
      {
+      "Id": "333856010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Defeat_001.wav",
+      "CachePath": "SFX/Skeleton_Defeat_001_10C4C929.wem"
+     },
+     {
       "Id": "419600914",
       "Language": "SFX",
       "Streaming": "false",
@@ -62,6 +70,22 @@
       "Location": "Memory",
       "ShortName": "Music_The_Ghosts_01.wav",
       "CachePath": "SFX/Music_The_Ghosts_01_D79FB2B7.wem"
+     },
+     {
+      "Id": "470679861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Defeat_003.wav",
+      "CachePath": "SFX/Skeleton_Defeat_003_10C4C929.wem"
+     },
+     {
+      "Id": "732880513",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skeleton_Defeat_002.wav",
+      "CachePath": "SFX/Skeleton_Defeat_002_10C4C929.wem"
      },
      {
       "Id": "789921876",
@@ -114,6 +138,29 @@
     ],
     "Events": [
      {
+      "Id": "4269851612",
+      "Name": "Footsteps_Cowboy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Cowboy",
+      "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28139177",
+      "DurationMax": "0.3426106",
+      "MediaRefs": [
+       {
+        "Id": "19040402"
+       },
+       {
+        "Id": "241008188"
+       },
+       {
+        "Id": "944560543"
+       },
+       {
+        "Id": "978095168"
+       }
+      ]
+     },
+     {
       "Id": "649649136",
       "Name": "Footsteps_Skeleton",
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Skeleton",
@@ -146,52 +193,6 @@
       ]
      },
      {
-      "Id": "2983625421",
-      "Name": "Play_Footsteps_Run",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Run",
-      "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.28139177",
-      "DurationMax": "0.3426106",
-      "MediaRefs": [
-       {
-        "Id": "19040402"
-       },
-       {
-        "Id": "241008188"
-       },
-       {
-        "Id": "944560543"
-       },
-       {
-        "Id": "978095168"
-       }
-      ]
-     },
-     {
-      "Id": "2618673757",
-      "Name": "Play_Footsteps_Walk",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps_Walk",
-      "GUID": "{10FB2802-3FF0-4DDF-8E7F-9E2E53744F0C}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.29469997",
-      "DurationMax": "0.33285713",
-      "MediaRefs": [
-       {
-        "Id": "19040402"
-       },
-       {
-        "Id": "241008188"
-       },
-       {
-        "Id": "944560543"
-       },
-       {
-        "Id": "978095168"
-       }
-      ]
-     },
-     {
       "Id": "2932040671",
       "Name": "Play_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
@@ -202,10 +203,30 @@
         "Id": "442075739"
        }
       ]
+     },
+     {
+      "Id": "3782639306",
+      "Name": "Skeleton_Defeat",
+      "ObjectPath": "\\Events\\Default Work Unit\\Skeleton_Defeat",
+      "GUID": "{8D48B589-B448-496D-84F3-6B38B02D61FF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0734468",
+      "DurationMax": "1.377619",
+      "MediaRefs": [
+       {
+        "Id": "333856010"
+       },
+       {
+        "Id": "470679861"
+       },
+       {
+        "Id": "732880513"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B9CAF818-2D21-348E-4014-BFF5EC95FFB4}"
+  "FileHash": "{57CB3318-C3EC-A350-AB99-0A8DEC4963C7}"
  }
 }
