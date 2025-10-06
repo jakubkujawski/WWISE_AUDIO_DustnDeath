@@ -1,8 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
 	649649136	Footsteps_Skeleton			\Default Work Unit\Footsteps_Skeleton	
+	1690668539	Music_States			\Default Work Unit\Music_States	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3782639306	Skeleton_Defeat			\Default Work Unit\Skeleton_Defeat	
 	4269851612	Footsteps_Cowboy			\Default Work Unit\Footsteps_Cowboy	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	77978275	Ambient	Music			
+	748895195	None	Music			
+	2582085496	Exploration	Music			
+	2607556080	Menu	Music			
+	2764240573	Combat	Music			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19040402	Footsteps_Cowboy_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_04		25794
@@ -11,10 +22,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	241008188	Footsteps_Cowboy_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_01		25642
 	333856010	Skeleton_Defeat_001	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_001		205960
 	419600914	Skeleton_Footsteps_06	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_06		23124
-	442075739	Music_The_Ghosts_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Music_The_Ghosts_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Explore Track\Music_The_Ghosts_01\Music_The_Ghosts_01		33288288
+	426850398	fight	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\fight_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Combat\Combat_Am\fight		11289696
+	442075739	Music_The_Ghosts_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Music_The_Ghosts_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Menu\Music_The_Ghosts_01\Music_The_Ghosts_01		33288288
 	470679861	Skeleton_Defeat_003	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_003		243172
 	732880513	Skeleton_Defeat_002	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_002		189516
 	789921876	Skeleton_Footsteps_07	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_07		28212
+	799027892	Ambient_Empty_Room_Em_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Ambient_Empty_Room_Em_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Ambient\Ambient_Empty_Room_Em_01\Ambient_Empty_Room_Em_01		11289760
 	866973072	Skeleton_Footsteps_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_03		28268
 	944560543	Footsteps_Cowboy_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_03		26802
 	950612327	Skeleton_Footsteps_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_04		31944

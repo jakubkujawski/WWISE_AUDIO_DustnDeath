@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{590B7C36-2709-7878-E7D0-21DF7270333A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -49,6 +49,46 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{AEA78707-40E9-45DE-B79F-6B2BB1C1B702}",
+      "States": [
+       {
+        "Id": "77978275",
+        "Name": "Ambient",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Ambient",
+        "GUID": "{4F4250CF-7B91-4746-A334-A9C296623EA1}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{54379189-9603-45F0-92D3-7732AB52B0F0}"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Exploration",
+        "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu",
+        "GUID": "{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Combat",
+        "GUID": "{8DEA339E-81D6-415A-A017-D06A55A406FF}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -66,7 +106,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{ECFD5ADE-C39A-6AE2-5F0C-751F84C8383C}",
+    "Hash": "{DF575CB4-59F6-91FF-64A2-00714EB71AE0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -120,6 +160,14 @@
       "CachePath": "SFX/Skeleton_Footsteps_06_10C4C929.wem"
      },
      {
+      "Id": "426850398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fight.wav",
+      "CachePath": "SFX/fight_D79FB2B7.wem"
+     },
+     {
       "Id": "442075739",
       "Language": "SFX",
       "Streaming": "false",
@@ -150,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "Skeleton_Footsteps_07.wav",
       "CachePath": "SFX/Skeleton_Footsteps_07_10C4C929.wem"
+     },
+     {
+      "Id": "799027892",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambient_Empty_Room_Em_01.wav",
+      "CachePath": "SFX/Ambient_Empty_Room_Em_01_D79FB2B7.wem"
      },
      {
       "Id": "866973072",
@@ -249,6 +305,54 @@
       ]
      },
      {
+      "Id": "1690668539",
+      "Name": "Music_States",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_States",
+      "GUID": "{1281B3F3-F67B-4602-8B10-D14C61239E8E}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "77978275",
+         "GUID": "{4F4250CF-7B91-4746-A334-A9C296623EA1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "799027892"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "2764240573",
+         "GUID": "{8DEA339E-81D6-415A-A017-D06A55A406FF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "426850398"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "2607556080",
+         "GUID": "{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "442075739"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "2932040671",
       "Name": "Play_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
@@ -280,9 +384,49 @@
        }
       ]
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{AEA78707-40E9-45DE-B79F-6B2BB1C1B702}",
+      "States": [
+       {
+        "Id": "77978275",
+        "Name": "Ambient",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Ambient",
+        "GUID": "{4F4250CF-7B91-4746-A334-A9C296623EA1}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{54379189-9603-45F0-92D3-7732AB52B0F0}"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Exploration",
+        "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu",
+        "GUID": "{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Combat",
+        "GUID": "{8DEA339E-81D6-415A-A017-D06A55A406FF}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{31F768F4-4EE4-561A-0F7E-C3EBF375BDBE}"
+  "FileHash": "{2BEEA907-3406-CEBD-EA6F-04D451DA48A7}"
  }
 }
