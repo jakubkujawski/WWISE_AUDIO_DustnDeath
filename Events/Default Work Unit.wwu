@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Boss_Floating" ID="{5836F722-9714-436B-8117-EEEB21E1B3FB}">
+					<ChildrenList>
+						<Action Name="" ID="{E6B3C83D-4DA8-43DA-9BA3-20A3641F9617}" ShortID="835690806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Floating_03" ID="{1999F942-04D9-47B9-9431-2EBDA03F55A4}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

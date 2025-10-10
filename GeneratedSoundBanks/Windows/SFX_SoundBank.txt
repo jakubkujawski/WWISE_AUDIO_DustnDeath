@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	649649136	Footsteps_Skeleton			\Default Work Unit\Footsteps_Skeleton	
+	1067633203	Boss_Floating			\Default Work Unit\Boss_Floating	
 	1690668539	Music_States			\Default Work Unit\Music_States	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3782639306	Skeleton_Defeat			\Default Work Unit\Skeleton_Defeat	
@@ -18,6 +19,7 @@ State	ID	Name	State Group			Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19040402	Footsteps_Cowboy_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_04		25794
 	91713407	Skeleton_Footsteps_05	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_05		35620
+	168197871	Boss_Floating_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Boss_Floating_03_8125EC7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss_Floating_03		589472
 	233644923	Skeleton_Footsteps_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_02		29316
 	241008188	Footsteps_Cowboy_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_01		25642
 	333856010	Skeleton_Defeat_001	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_001		205960

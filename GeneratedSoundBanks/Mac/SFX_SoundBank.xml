@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{DF575CB4-59F6-91FF-64A2-00714EB71AE0}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{C299A576-9DA6-CB93-F1C2-68C773666F17}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -13,6 +13,10 @@
 				<File Id="91713407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_05.wav</ShortName>
 					<CachePath>SFX/Skeleton_Footsteps_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="168197871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Floating_03.wav</ShortName>
+					<CachePath>SFX/Boss_Floating_03_8125EC7F.wem</CachePath>
 				</File>
 				<File Id="233644923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_02.wav</ShortName>
@@ -76,6 +80,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1067633203" Name="Boss_Floating" ObjectPath="\Events\Default Work Unit\Boss_Floating" GUID="{5836F722-9714-436B-8117-EEEB21E1B3FB}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="168197871"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4269851612" Name="Footsteps_Cowboy" ObjectPath="\Events\Default Work Unit\Footsteps_Cowboy" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
 					<MediaRefs>
 						<MediaRef Id="19040402"/>
@@ -143,5 +152,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{80E241C3-5D27-BAFB-5525-645673AB4AAF}</FileHash>
+	<FileHash>{7FEEA1FE-766E-6F43-9BE6-90F9CD86EEA1}</FileHash>
 </SoundBanksInfo>
