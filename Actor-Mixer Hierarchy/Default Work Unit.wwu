@@ -410,46 +410,68 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<Sound Name="Boss_Floating_03" ID="{1999F942-04D9-47B9-9431-2EBDA03F55A4}" ShortID="224887282">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="BYK (BOSS)" ID="{4109B99E-398A-4521-9F91-11D60F6F6B0A}" ShortID="1041007823">
 					<ChildrenList>
-						<AudioFileSource Name="Boss_Floating_03" ID="{5C0FAEDF-1214-4CE2-AA8C-C5CFEB82E61F}">
+						<RandomSequenceContainer Name="Byk_Szarza" ID="{3168F4F3-6D1A-418E-AC61-A6901AB3FC51}" ShortID="310534171">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Byk_Szarza_Z_Oddechem_01" ID="{05FC8D75-C5FD-4ED3-87AC-2E12D587D5CE}" ShortID="47237644">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Byk_Szarza_Z_Oddechem_01" ID="{8D9B9B8C-CC0A-444F-87AE-F1B808F3FAA0}">
+											<Language>SFX</Language>
+											<AudioFile>Byk_Szarza_Z_Oddechem_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="970382954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Byk_Szarza_Z_Oddechem_01" ID="{8D9B9B8C-CC0A-444F-87AE-F1B808F3FAA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Byk_Szarza_Z_Oddechem_02" ID="{2EF0A92C-4EAD-4E94-9427-736A813776DE}" ShortID="996621164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Byk_Szarza_Z_Oddechem_02" ID="{34991B86-BA8F-433F-A8F0-257785ED94FE}">
+											<Language>SFX</Language>
+											<AudioFile>Byk_Szarza_Z_Oddechem_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="722475529"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Byk_Szarza_Z_Oddechem_02" ID="{34991B86-BA8F-433F-A8F0-257785ED94FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Boss_Floating_03" ID="{1999F942-04D9-47B9-9431-2EBDA03F55A4}" ShortID="224887282">
 							<PropertyList>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="6.68227322105986"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Boss_Floating_03.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="168197871"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Boss_Floating_03" ID="{5C0FAEDF-1214-4CE2-AA8C-C5CFEB82E61F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<RandomSequenceContainer Name="Byk_Szarza" ID="{3168F4F3-6D1A-418E-AC61-A6901AB3FC51}" ShortID="310534171">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Byk_Szarza_Z_Oddechem_01" ID="{05FC8D75-C5FD-4ED3-87AC-2E12D587D5CE}" ShortID="47237644">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
@@ -459,19 +481,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Byk_Szarza_Z_Oddechem_01" ID="{8D9B9B8C-CC0A-444F-87AE-F1B808F3FAA0}">
+								<AudioFileSource Name="Boss_Floating_03" ID="{5C0FAEDF-1214-4CE2-AA8C-C5CFEB82E61F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.68227322105986"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Byk_Szarza_Z_Oddechem_01.wav</AudioFile>
+									<AudioFile>Boss_Floating_03.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="970382954"/>
+										<MediaID ID="168197871"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Byk_Szarza_Z_Oddechem_01" ID="{8D9B9B8C-CC0A-444F-87AE-F1B808F3FAA0}" Platform="Linked"/>
+								<ActiveSource Name="Boss_Floating_03" ID="{5C0FAEDF-1214-4CE2-AA8C-C5CFEB82E61F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Byk_Szarza_Z_Oddechem_02" ID="{2EF0A92C-4EAD-4E94-9427-736A813776DE}" ShortID="996621164">
+						<RandomSequenceContainer Name="Byk_Defeat" ID="{1ED3D534-D2AF-4C2F-A8B1-6E4E08033EC2}" ShortID="467709081">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
@@ -481,20 +507,54 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Byk_Szarza_Z_Oddechem_02" ID="{34991B86-BA8F-433F-A8F0-257785ED94FE}">
-									<Language>SFX</Language>
-									<AudioFile>Byk_Szarza_Z_Oddechem_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="722475529"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Byk_Defeat_Muczenie_03" ID="{DEC0002D-9EB5-449B-AE2A-48B88213E4ED}" ShortID="996253834">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Byk_Defeat_Muczenie_03" ID="{38A8A6C9-183C-4C8D-A4EE-131351E2110F}">
+											<Language>SFX</Language>
+											<AudioFile>Byk_Defeat_Muczenie_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="274989946"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Byk_Defeat_Muczenie_03" ID="{38A8A6C9-183C-4C8D-A4EE-131351E2110F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Byk_Defeat_Muczenie_04" ID="{9F1C74D6-FB77-4463-8ECB-313BA29784FB}" ShortID="568231895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Byk_Defeat_Muczenie_04" ID="{D22D18CF-88C7-440D-B0EA-362CE09DB211}">
+											<Language>SFX</Language>
+											<AudioFile>Byk_Defeat_Muczenie_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793813913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Byk_Defeat_Muczenie_04" ID="{D22D18CF-88C7-440D-B0EA-362CE09DB211}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Byk_Szarza_Z_Oddechem_02" ID="{34991B86-BA8F-433F-A8F0-257785ED94FE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
-				</RandomSequenceContainer>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -106,7 +106,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{9E561D3C-5625-BE8A-8CF0-2FA5D6920A90}",
+    "Hash": "{34401FDB-4BF6-379A-F85A-CF1A1B801F4F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -150,6 +150,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps_Cowboy_01.wav",
       "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
+     },
+     {
+      "Id": "274989946",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Byk_Defeat_Muczenie_03.wav",
+      "CachePath": "SFX/Byk_Defeat_Muczenie_03_10C4C929.wem"
      },
      {
       "Id": "333856010",
@@ -216,6 +224,14 @@
       "CachePath": "SFX/Skeleton_Footsteps_07_10C4C929.wem"
      },
      {
+      "Id": "793813913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Byk_Defeat_Muczenie_04.wav",
+      "CachePath": "SFX/Byk_Defeat_Muczenie_04_10C4C929.wem"
+     },
+     {
       "Id": "799027892",
       "Language": "SFX",
       "Streaming": "false",
@@ -276,7 +292,7 @@
      {
       "Id": "1067633203",
       "Name": "Boss_Floating",
-      "ObjectPath": "\\Events\\Default Work Unit\\Boss_Floating",
+      "ObjectPath": "\\Events\\Default Work Unit\\BYK (BOSS)\\Boss_Floating",
       "GUID": "{5836F722-9714-436B-8117-EEEB21E1B3FB}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -286,9 +302,26 @@
       ]
      },
      {
+      "Id": "54786789",
+      "Name": "Byk_Defeat",
+      "ObjectPath": "\\Events\\Default Work Unit\\BYK (BOSS)\\Byk_Defeat",
+      "GUID": "{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "3",
+      "MediaRefs": [
+       {
+        "Id": "274989946"
+       },
+       {
+        "Id": "793813913"
+       }
+      ]
+     },
+     {
       "Id": "1949405673",
       "Name": "Byk_Szarza",
-      "ObjectPath": "\\Events\\Default Work Unit\\Byk_Szarza",
+      "ObjectPath": "\\Events\\Default Work Unit\\BYK (BOSS)\\Byk_Szarza",
       "GUID": "{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}",
       "DurationType": "OneShot",
       "DurationMin": "3.3400908",
@@ -480,6 +513,6 @@
     ]
    }
   ],
-  "FileHash": "{94A1A4B5-B61C-FF56-2BE1-FF5F65A2A2A7}"
+  "FileHash": "{CA92400F-2AF3-C96D-9C32-C4516F278168}"
  }
 }

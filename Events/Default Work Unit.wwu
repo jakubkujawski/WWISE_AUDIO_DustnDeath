@@ -58,28 +58,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Boss_Floating" ID="{5836F722-9714-436B-8117-EEEB21E1B3FB}">
+				<Folder Name="BYK (BOSS)" ID="{739DE442-E1C0-4FFB-8FA2-BC77235D17CB}" ShortID="838243912">
 					<ChildrenList>
-						<Action Name="" ID="{E6B3C83D-4DA8-43DA-9BA3-20A3641F9617}" ShortID="835690806">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Boss_Floating_03" ID="{1999F942-04D9-47B9-9431-2EBDA03F55A4}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Boss_Floating" ID="{5836F722-9714-436B-8117-EEEB21E1B3FB}">
+							<ChildrenList>
+								<Action Name="" ID="{E6B3C83D-4DA8-43DA-9BA3-20A3641F9617}" ShortID="835690806">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Floating_03" ID="{1999F942-04D9-47B9-9431-2EBDA03F55A4}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Byk_Szarza" ID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}">
+							<ChildrenList>
+								<Action Name="" ID="{959DADAF-6133-468C-B1A7-10ACAF83CC6C}" ShortID="182957028">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Byk_Szarza" ID="{3168F4F3-6D1A-418E-AC61-A6901AB3FC51}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Byk_Defeat" ID="{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}">
+							<ChildrenList>
+								<Action Name="" ID="{D1463EF1-85FC-4A2A-B530-5528F10483FA}" ShortID="1069359515">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Byk_Defeat" ID="{1ED3D534-D2AF-4C2F-A8B1-6E4E08033EC2}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Byk_Szarza" ID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}">
-					<ChildrenList>
-						<Action Name="" ID="{959DADAF-6133-468C-B1A7-10ACAF83CC6C}" ShortID="182957028">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Byk_Szarza" ID="{3168F4F3-6D1A-418E-AC61-A6901AB3FC51}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

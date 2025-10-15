@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{9E561D3C-5625-BE8A-8CF0-2FA5D6920A90}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{34401FDB-4BF6-379A-F85A-CF1A1B801F4F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -25,6 +25,10 @@
 				<File Id="241008188" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Cowboy_01.wav</ShortName>
 					<CachePath>SFX/Footsteps_Cowboy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="274989946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Byk_Defeat_Muczenie_03.wav</ShortName>
+					<CachePath>SFX/Byk_Defeat_Muczenie_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="333856010" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Defeat_001.wav</ShortName>
@@ -58,6 +62,10 @@
 					<ShortName>Skeleton_Footsteps_07.wav</ShortName>
 					<CachePath>SFX/Skeleton_Footsteps_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="793813913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Byk_Defeat_Muczenie_04.wav</ShortName>
+					<CachePath>SFX/Byk_Defeat_Muczenie_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="799027892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Empty_Room_Em_01.wav</ShortName>
 					<CachePath>SFX/Ambient_Empty_Room_Em_01_D79FB2B7.wem</CachePath>
@@ -88,12 +96,18 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1067633203" Name="Boss_Floating" ObjectPath="\Events\Default Work Unit\Boss_Floating" GUID="{5836F722-9714-436B-8117-EEEB21E1B3FB}" DurationType="Infinite">
+				<Event Id="1067633203" Name="Boss_Floating" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Boss_Floating" GUID="{5836F722-9714-436B-8117-EEEB21E1B3FB}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="168197871"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1949405673" Name="Byk_Szarza" ObjectPath="\Events\Default Work Unit\Byk_Szarza" GUID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" DurationType="OneShot" DurationMin="3.3400908" DurationMax="3.3400908">
+				<Event Id="54786789" Name="Byk_Defeat" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Byk_Defeat" GUID="{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="274989946"/>
+						<MediaRef Id="793813913"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1949405673" Name="Byk_Szarza" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Byk_Szarza" GUID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" DurationType="OneShot" DurationMin="3.3400908" DurationMax="3.3400908">
 					<MediaRefs>
 						<MediaRef Id="722475529"/>
 						<MediaRef Id="970382954"/>
@@ -166,5 +180,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FCDE86AA-E3EC-F264-8BB0-AEFDF8CB55C2}</FileHash>
+	<FileHash>{0FEDDBE8-D1BA-3A3E-3CAE-959222212D31}</FileHash>
 </SoundBanksInfo>
