@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	649649136	Footsteps_Skeleton			\Default Work Unit\Footsteps_Skeleton	
 	1067633203	Boss_Floating			\Default Work Unit\Boss_Floating	
 	1690668539	Music_States			\Default Work Unit\Music_States	
+	1949405673	Byk_Szarza			\Default Work Unit\Byk_Szarza	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3782639306	Skeleton_Defeat			\Default Work Unit\Skeleton_Defeat	
 	4269851612	Footsteps_Cowboy			\Default Work Unit\Footsteps_Cowboy	
@@ -19,7 +20,7 @@ State	ID	Name	State Group			Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19040402	Footsteps_Cowboy_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_04		25794
 	91713407	Skeleton_Footsteps_05	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_05		35620
-	168197871	Boss_Floating_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Boss_Floating_03_8125EC7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss_Floating_03		589472
+	168197871	Boss_Floating_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Boss_Floating_03_4B13FC70.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss_Floating_03		589472
 	233644923	Skeleton_Footsteps_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_02		29316
 	241008188	Footsteps_Cowboy_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_01		25642
 	333856010	Skeleton_Defeat_001	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_001		205960
@@ -27,12 +28,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	426850398	fight	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\fight_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Combat\Combat_Am\fight		11289696
 	442075739	Music_The_Ghosts_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Music_The_Ghosts_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Menu\Music_The_Ghosts_01\Music_The_Ghosts_01		33288288
 	470679861	Skeleton_Defeat_003	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_003		243172
+	722475529	Byk_Szarza_Z_Oddechem_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Byk_Szarza_Z_Oddechem_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Byk_Szarza\Byk_Szarza_Z_Oddechem_02		589352
 	732880513	Skeleton_Defeat_002	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Defeat_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton_Defeat\Skeleton_Defeat_002		189516
 	789921876	Skeleton_Footsteps_07	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_07		28212
 	799027892	Ambient_Empty_Room_Em_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Ambient_Empty_Room_Em_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Ambient\Ambient_Empty_Room_Em_01\Ambient_Empty_Room_Em_01		11289760
 	866973072	Skeleton_Footsteps_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_03		28268
 	944560543	Footsteps_Cowboy_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_03		26802
 	950612327	Skeleton_Footsteps_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_04		31944
+	970382954	Byk_Szarza_Z_Oddechem_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Byk_Szarza_Z_Oddechem_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Byk_Szarza\Byk_Szarza_Z_Oddechem_01		589352
 	978095168	Footsteps_Cowboy_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Footsteps_Cowboy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_02		29454
 	1029818061	Skeleton_Footsteps_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Windows\SFX\Skeleton_Footsteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Skeleton\Skeleton_Footsteps_01		30200
 

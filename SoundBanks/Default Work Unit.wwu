@@ -16,6 +16,7 @@
 						<ObjectRef Name="Play_Music" ID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Skeleton_Defeat" ID="{8D48B589-B448-496D-84F3-6B38B02D61FF}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Byk_Szarza" ID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Cowboy" ID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

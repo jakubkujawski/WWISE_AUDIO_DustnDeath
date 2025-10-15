@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{C299A576-9DA6-CB93-F1C2-68C773666F17}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{9E561D3C-5625-BE8A-8CF0-2FA5D6920A90}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -16,7 +16,7 @@
 				</File>
 				<File Id="168197871" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_Floating_03.wav</ShortName>
-					<CachePath>SFX/Boss_Floating_03_8125EC7F.wem</CachePath>
+					<CachePath>SFX/Boss_Floating_03_4B13FC70.wem</CachePath>
 				</File>
 				<File Id="233644923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_02.wav</ShortName>
@@ -46,6 +46,10 @@
 					<ShortName>Skeleton_Defeat_003.wav</ShortName>
 					<CachePath>SFX/Skeleton_Defeat_003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="722475529" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Byk_Szarza_Z_Oddechem_02.wav</ShortName>
+					<CachePath>SFX/Byk_Szarza_Z_Oddechem_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="732880513" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Defeat_002.wav</ShortName>
 					<CachePath>SFX/Skeleton_Defeat_002_10C4C929.wem</CachePath>
@@ -70,6 +74,10 @@
 					<ShortName>Skeleton_Footsteps_04.wav</ShortName>
 					<CachePath>SFX/Skeleton_Footsteps_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="970382954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Byk_Szarza_Z_Oddechem_01.wav</ShortName>
+					<CachePath>SFX/Byk_Szarza_Z_Oddechem_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="978095168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Cowboy_02.wav</ShortName>
 					<CachePath>SFX/Footsteps_Cowboy_02_10C4C929.wem</CachePath>
@@ -83,6 +91,12 @@
 				<Event Id="1067633203" Name="Boss_Floating" ObjectPath="\Events\Default Work Unit\Boss_Floating" GUID="{5836F722-9714-436B-8117-EEEB21E1B3FB}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="168197871"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1949405673" Name="Byk_Szarza" ObjectPath="\Events\Default Work Unit\Byk_Szarza" GUID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" DurationType="OneShot" DurationMin="3.3400908" DurationMax="3.3400908">
+					<MediaRefs>
+						<MediaRef Id="722475529"/>
+						<MediaRef Id="970382954"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4269851612" Name="Footsteps_Cowboy" ObjectPath="\Events\Default Work Unit\Footsteps_Cowboy" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
@@ -152,5 +166,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7FEEA1FE-766E-6F43-9BE6-90F9CD86EEA1}</FileHash>
+	<FileHash>{FCDE86AA-E3EC-F264-8BB0-AEFDF8CB55C2}</FileHash>
 </SoundBanksInfo>

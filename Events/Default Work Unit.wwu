@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Byk_Szarza" ID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}">
+					<ChildrenList>
+						<Action Name="" ID="{959DADAF-6133-468C-B1A7-10ACAF83CC6C}" ShortID="182957028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Byk_Szarza" ID="{3168F4F3-6D1A-418E-AC61-A6901AB3FC51}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
