@@ -95,6 +95,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Skeleton_Revolver" ID="{541781B4-4471-40D2-9B89-7C114803B82E}">
+					<ChildrenList>
+						<Action Name="" ID="{0E1663E5-8944-4CDB-AD1D-09899B3060BD}" ShortID="888741997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skeleton_Revolver" ID="{4E0E78BA-EF79-4E92-991C-A37F3CB6E484}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

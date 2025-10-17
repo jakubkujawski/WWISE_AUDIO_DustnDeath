@@ -11,6 +11,7 @@
 				<SoundBank Name="SFX_SoundBank" ID="{756BA574-2B83-4C19-BC52-6125C8FA6403}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Footsteps_Skeleton" ID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Skeleton_Revolver" ID="{541781B4-4471-40D2-9B89-7C114803B82E}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Boss_Floating" ID="{5836F722-9714-436B-8117-EEEB21E1B3FB}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_States" ID="{1281B3F3-F67B-4602-8B10-D14C61239E8E}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>

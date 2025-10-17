@@ -146,271 +146,11 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Footsteps_Skeleton" ID="{D3B133BC-AF1B-48AB-AB55-BCE10BC788E1}" ShortID="405303848">
-					<PropertyList>
-						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Skeleton_Footsteps_01" ID="{AF1898E7-8EFC-44F3-AD55-F95466DCFB7F}" ShortID="58030835">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_01" ID="{48F133BC-99C4-4BA1-BEA2-F87E5934616D}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1029818061"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_01" ID="{48F133BC-99C4-4BA1-BEA2-F87E5934616D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Footsteps_02" ID="{C49A5319-C226-451B-B30C-5550D1AE9ACC}" ShortID="172420128">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_02" ID="{DBD798EE-B104-4C3E-B9BF-657DCD5014CE}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="233644923"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_02" ID="{DBD798EE-B104-4C3E-B9BF-657DCD5014CE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Footsteps_03" ID="{48F2099C-882C-4950-ACEF-60B1B008ECE2}" ShortID="1003170301">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_03" ID="{67B9AEA1-A233-4F9A-899F-C511F6FDC999}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="866973072"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_03" ID="{67B9AEA1-A233-4F9A-899F-C511F6FDC999}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Footsteps_04" ID="{89F2244E-7531-4A7D-971D-3154DADADC27}" ShortID="904214751">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_04" ID="{7B70F9D1-0BEF-4246-A8B6-4C4F1B1929D3}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_04.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="950612327"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_04" ID="{7B70F9D1-0BEF-4246-A8B6-4C4F1B1929D3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Footsteps_05" ID="{A482D71D-AE6D-4B14-8C27-BF168AACC649}" ShortID="487590541">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Weight" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_05" ID="{C6D687F8-A859-4FF3-83BE-3CE8922E64DA}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_05.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="91713407"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_05" ID="{C6D687F8-A859-4FF3-83BE-3CE8922E64DA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Footsteps_06" ID="{F47405FC-9A61-4C9D-8B20-4F74A6DE21F2}" ShortID="807832121">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_06" ID="{501FB0B0-4B6B-4497-98E8-5A26B783CA01}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_06.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="419600914"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_06" ID="{501FB0B0-4B6B-4497-98E8-5A26B783CA01}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Footsteps_07" ID="{598CDD05-E1C0-4D66-8F4F-BF6FEB98EC98}" ShortID="161343525">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Footsteps_07" ID="{FA1ED90D-DD46-4526-A687-D795AB98B4FD}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Footsteps_07.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="789921876"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Footsteps_07" ID="{FA1ED90D-DD46-4526-A687-D795AB98B4FD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Skeleton_Defeat" ID="{AB50A73B-7312-42F2-B197-125E54934D29}" ShortID="274658558">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Skeleton_Defeat_001" ID="{B8F80997-FD6C-4268-9606-AB7429D7F410}" ShortID="349247660">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Defeat_001" ID="{3CFD8FEA-E2F3-43CE-BECB-E26FA7F335F0}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Defeat_001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="333856010"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Defeat_001" ID="{3CFD8FEA-E2F3-43CE-BECB-E26FA7F335F0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Defeat_002" ID="{20D77BC2-BC08-45C4-8CAF-F2BAA2222535}" ShortID="345116900">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Defeat_002" ID="{E9C4D44C-4349-44A3-AC9F-1CF12381E747}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Defeat_002.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="732880513"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Defeat_002" ID="{E9C4D44C-4349-44A3-AC9F-1CF12381E747}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Skeleton_Defeat_003" ID="{AA0417DC-AB31-4292-9C2D-1BC4E7C7EA76}" ShortID="790078138">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Skeleton_Defeat_003" ID="{112E69FB-DC58-48DE-B281-9DE8654A0316}">
-									<Language>SFX</Language>
-									<AudioFile>Skeleton_Defeat_003.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="470679861"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Skeleton_Defeat_003" ID="{112E69FB-DC58-48DE-B281-9DE8654A0316}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
 				<Folder Name="BYK (BOSS)" ID="{4109B99E-398A-4521-9F91-11D60F6F6B0A}" ShortID="1041007823">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Byk_Szarza" ID="{3168F4F3-6D1A-418E-AC61-A6901AB3FC51}" ShortID="310534171">
 							<ReferenceList>
@@ -549,6 +289,418 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Byk_Defeat_Muczenie_04" ID="{D22D18CF-88C7-440D-B0EA-362CE09DB211}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Skeleton" ID="{4F3F5A04-0DFA-423F-9F55-51976F607F00}" ShortID="1031787618">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Footsteps_Skeleton" ID="{D3B133BC-AF1B-48AB-AB55-BCE10BC788E1}" ShortID="405303848">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Skeleton_Footsteps_01" ID="{AF1898E7-8EFC-44F3-AD55-F95466DCFB7F}" ShortID="58030835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_01" ID="{48F133BC-99C4-4BA1-BEA2-F87E5934616D}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1029818061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_01" ID="{48F133BC-99C4-4BA1-BEA2-F87E5934616D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Footsteps_02" ID="{C49A5319-C226-451B-B30C-5550D1AE9ACC}" ShortID="172420128">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_02" ID="{DBD798EE-B104-4C3E-B9BF-657DCD5014CE}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233644923"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_02" ID="{DBD798EE-B104-4C3E-B9BF-657DCD5014CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Footsteps_03" ID="{48F2099C-882C-4950-ACEF-60B1B008ECE2}" ShortID="1003170301">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_03" ID="{67B9AEA1-A233-4F9A-899F-C511F6FDC999}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="866973072"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_03" ID="{67B9AEA1-A233-4F9A-899F-C511F6FDC999}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Footsteps_04" ID="{89F2244E-7531-4A7D-971D-3154DADADC27}" ShortID="904214751">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_04" ID="{7B70F9D1-0BEF-4246-A8B6-4C4F1B1929D3}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="950612327"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_04" ID="{7B70F9D1-0BEF-4246-A8B6-4C4F1B1929D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Footsteps_05" ID="{A482D71D-AE6D-4B14-8C27-BF168AACC649}" ShortID="487590541">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_05" ID="{C6D687F8-A859-4FF3-83BE-3CE8922E64DA}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="91713407"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_05" ID="{C6D687F8-A859-4FF3-83BE-3CE8922E64DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Footsteps_06" ID="{F47405FC-9A61-4C9D-8B20-4F74A6DE21F2}" ShortID="807832121">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_06" ID="{501FB0B0-4B6B-4497-98E8-5A26B783CA01}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="419600914"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_06" ID="{501FB0B0-4B6B-4497-98E8-5A26B783CA01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Footsteps_07" ID="{598CDD05-E1C0-4D66-8F4F-BF6FEB98EC98}" ShortID="161343525">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Footsteps_07" ID="{FA1ED90D-DD46-4526-A687-D795AB98B4FD}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Footsteps_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789921876"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Footsteps_07" ID="{FA1ED90D-DD46-4526-A687-D795AB98B4FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Skeleton_Defeat" ID="{AB50A73B-7312-42F2-B197-125E54934D29}" ShortID="274658558">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Skeleton_Defeat_001" ID="{B8F80997-FD6C-4268-9606-AB7429D7F410}" ShortID="349247660">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Defeat_001" ID="{3CFD8FEA-E2F3-43CE-BECB-E26FA7F335F0}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Defeat_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333856010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Defeat_001" ID="{3CFD8FEA-E2F3-43CE-BECB-E26FA7F335F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Defeat_002" ID="{20D77BC2-BC08-45C4-8CAF-F2BAA2222535}" ShortID="345116900">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Defeat_002" ID="{E9C4D44C-4349-44A3-AC9F-1CF12381E747}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Defeat_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="732880513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Defeat_002" ID="{E9C4D44C-4349-44A3-AC9F-1CF12381E747}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Defeat_003" ID="{AA0417DC-AB31-4292-9C2D-1BC4E7C7EA76}" ShortID="790078138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Defeat_003" ID="{112E69FB-DC58-48DE-B281-9DE8654A0316}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Defeat_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470679861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Defeat_003" ID="{112E69FB-DC58-48DE-B281-9DE8654A0316}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Skeleton_Revolver" ID="{4E0E78BA-EF79-4E92-991C-A37F3CB6E484}" ShortID="495183495">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Skeleton_Revolver_01" ID="{72DF4867-54D3-4B48-8B29-EB0D06178334}" ShortID="885457134">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Revolver_01" ID="{12A933A2-9FA5-4DC6-ACF6-E11604D47638}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Revolver_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892180961"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Revolver_01" ID="{12A933A2-9FA5-4DC6-ACF6-E11604D47638}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Revolver_02" ID="{BB3BB086-AAD5-4B7B-905B-E74D080EBF04}" ShortID="14142317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Revolver_02" ID="{9B3209ED-9504-48AE-AA6B-FB738B137883}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Revolver_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="291342438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Revolver_02" ID="{9B3209ED-9504-48AE-AA6B-FB738B137883}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Revolver_03" ID="{552A2129-EE47-4F1E-9208-A65699F0AD18}" ShortID="150245080">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Revolver_03" ID="{16EF7D3A-8A10-4BCD-8AB8-A5BD0A0A5D79}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Revolver_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="172264929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Revolver_03" ID="{16EF7D3A-8A10-4BCD-8AB8-A5BD0A0A5D79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Revolver_04" ID="{E948CC9F-8428-4FA1-8812-22E8B6063ACB}" ShortID="120592194">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Revolver_04" ID="{B711F869-115F-4838-AC1B-5EBD3ABDA7E7}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Revolver_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="301788757"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Revolver_04" ID="{B711F869-115F-4838-AC1B-5EBD3ABDA7E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Revolver_05" ID="{F29A9D2B-0151-4554-8977-8B376CF6BB6B}" ShortID="602840129">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Revolver_05" ID="{FF2C6E36-94FE-4223-91FA-956969C4612C}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Revolver_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="187481458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Revolver_05" ID="{FF2C6E36-94FE-4223-91FA-956969C4612C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skeleton_Revolver_06" ID="{91038967-54BD-48D9-87E0-9316BE6C9BC8}" ShortID="29001528">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skeleton_Revolver_06" ID="{E5AA111D-4360-4DCF-9C20-5252EA4ED59B}">
+											<Language>SFX</Language>
+											<AudioFile>Skeleton_Revolver_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="421962913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skeleton_Revolver_06" ID="{E5AA111D-4360-4DCF-9C20-5252EA4ED59B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
