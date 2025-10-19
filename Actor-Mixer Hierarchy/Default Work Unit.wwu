@@ -707,6 +707,171 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Bohater" ID="{555625C7-B771-4F9B-B0FE-4F423272468D}" ShortID="139426490">
+					<ChildrenList>
+						<Sound Name="Bohater_Revolver" ID="{7DACDE88-F7B1-4930-A7FA-94D6F4D499B0}" ShortID="451594118">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Revolver_Bohater_01" ID="{B837C928-710E-4CDB-B051-2FB18026427E}">
+									<Language>SFX</Language>
+									<AudioFile>Revolver_Bohater_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825420739"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Revolver_Bohater_01" ID="{B837C928-710E-4CDB-B051-2FB18026427E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Bohater_Shotgun" ID="{E657B61F-DC38-47CB-BFAC-9E521F986271}" ShortID="585563535">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Shotgun_Bohater_02" ID="{0807DC0E-C084-4AFB-8AE5-99E7B0058C76}" ShortID="1010880740">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shotgun_Bohater_02" ID="{E8ABB147-5D08-440F-BE86-7B705E3276A2}">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun_Bohater_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332395475"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shotgun_Bohater_02" ID="{E8ABB147-5D08-440F-BE86-7B705E3276A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shotgun_Bohater_03" ID="{F7125CB6-3FD2-4A41-9892-E11840E1445A}" ShortID="628452918">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shotgun_Bohater_03" ID="{6853547B-66F6-4916-8BA3-64219641B35D}">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun_Bohater_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="320682329"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shotgun_Bohater_03" ID="{6853547B-66F6-4916-8BA3-64219641B35D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shotgun_Bohater_04" ID="{F82CA11B-08D8-4382-B687-AC0D2BC23336}" ShortID="496667300">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shotgun_Bohater_04" ID="{3C09C0D0-D4D4-44A1-860C-CF2A4E08B6F6}">
+											<Language>SFX</Language>
+											<AudioFile>Shotgun_Bohater_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="926950665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shotgun_Bohater_04" ID="{3C09C0D0-D4D4-44A1-860C-CF2A4E08B6F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PROPS" ID="{DA81437F-0B2F-4D3D-B8D4-1F110A6DBC26}" ShortID="962206540">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Barrel_Breakable" ID="{E4057C8E-EEB4-4320-82E4-B069EE52FEF9}" ShortID="807478354">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Breaking_Wooden_Barrel_02" ID="{3E027E94-A911-4DE1-92B0-632051999884}" ShortID="154009166">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breaking_Wooden_Barrel_02" ID="{A8C1377D-7770-4C36-A2D4-248DF4E12E61}">
+											<Language>SFX</Language>
+											<AudioFile>Breaking_Wooden_Barrel_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337331998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breaking_Wooden_Barrel_02" ID="{A8C1377D-7770-4C36-A2D4-248DF4E12E61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Breaking_Wooden_Barrel_04" ID="{2A4CD73C-C90E-48BE-8590-44BDAF36EBC2}" ShortID="950436009">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Breaking_Wooden_Barrel_04" ID="{AB890485-EB49-497A-BAF4-1759F6567C25}">
+											<Language>SFX</Language>
+											<AudioFile>Breaking_Wooden_Barrel_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151112017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Breaking_Wooden_Barrel_04" ID="{AB890485-EB49-497A-BAF4-1759F6567C25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SZKIELET" ID="{DEC8C26B-B2BB-49AF-BD85-0725E5C352A6}" ShortID="339705383"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

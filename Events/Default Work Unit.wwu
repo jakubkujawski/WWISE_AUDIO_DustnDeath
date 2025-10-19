@@ -106,6 +106,47 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="BOHATER" ID="{1DA1B5CA-9BA7-41DF-923D-B16630DF7634}" ShortID="677124458">
+					<ChildrenList>
+						<Event Name="Bohater_Revolver" ID="{0933DB76-8366-4CC9-9961-E01F73652562}">
+							<ChildrenList>
+								<Action Name="" ID="{2110FBE2-9C4B-4DA5-B654-C402C0C8F93D}" ShortID="438484939">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bohater_Revolver" ID="{7DACDE88-F7B1-4930-A7FA-94D6F4D499B0}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bohater_Shotgun" ID="{2075B705-DF75-45D2-860B-4017D4654007}">
+							<ChildrenList>
+								<Action Name="" ID="{57F4F94D-AA85-4E9C-A2D6-BC0DBC1F6EF3}" ShortID="334638187">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bohater_Shotgun" ID="{E657B61F-DC38-47CB-BFAC-9E521F986271}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PROPS" ID="{1C8D72FB-188F-44AF-9A10-B0500B16E1E1}" ShortID="163568951">
+					<ChildrenList>
+						<Event Name="Barrel_Breakable" ID="{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}">
+							<ChildrenList>
+								<Action Name="" ID="{98CA94D0-D49A-4693-8E5D-B623AFD08594}" ShortID="953627003">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Barrel_Breakable" ID="{E4057C8E-EEB4-4320-82E4-B069EE52FEF9}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

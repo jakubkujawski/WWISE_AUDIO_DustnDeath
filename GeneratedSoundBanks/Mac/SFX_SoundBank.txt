@@ -1,8 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	54786789	Byk_Defeat			\Default Work Unit\BYK (BOSS)\Byk_Defeat	
+	512941277	Bohater_Shotgun			\Default Work Unit\BOHATER\Bohater_Shotgun	
 	649649136	Footsteps_Skeleton			\Default Work Unit\Footsteps_Skeleton	
 	1067633203	Boss_Floating			\Default Work Unit\BYK (BOSS)\Boss_Floating	
 	1690668539	Music_States			\Default Work Unit\Music_States	
+	1865588041	Barrel_Breakable			\Default Work Unit\PROPS\Barrel_Breakable	
+	1890751152	Bohater_Revolver			\Default Work Unit\BOHATER\Bohater_Revolver	
 	1949405673	Byk_Szarza			\Default Work Unit\BYK (BOSS)\Byk_Szarza	
 	2331497394	Skeleton_Revolver			\Default Work Unit\Skeleton_Revolver	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
@@ -22,6 +25,7 @@ State	ID	Name	State Group			Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19040402	Footsteps_Cowboy_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_04		25794
 	91713407	Skeleton_Footsteps_05	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_05		35620
+	151112017	Breaking_Wooden_Barrel_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Breaking_Wooden_Barrel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Barrel_Breakable\Breaking_Wooden_Barrel_04		399296
 	168197871	Boss_Floating_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Boss_Floating_03_4B13FC70.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Boss_Floating_03		589472
 	172264929	Skeleton_Revolver_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_03		71000
 	187481458	Skeleton_Revolver_05	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_05		71000
@@ -30,7 +34,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	274989946	Byk_Defeat_Muczenie_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Byk_Defeat_Muczenie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Byk_Defeat\Byk_Defeat_Muczenie_03		529360
 	291342438	Skeleton_Revolver_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_02		70576
 	301788757	Skeleton_Revolver_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_04		70576
+	320682329	Shotgun_Bohater_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shotgun_Bohater_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Shotgun\Shotgun_Bohater_03		174978
+	332395475	Shotgun_Bohater_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shotgun_Bohater_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Shotgun\Shotgun_Bohater_02		177588
 	333856010	Skeleton_Defeat_001	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Defeat_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Defeat\Skeleton_Defeat_001		205960
+	337331998	Breaking_Wooden_Barrel_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Breaking_Wooden_Barrel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Barrel_Breakable\Breaking_Wooden_Barrel_02		482264
 	419600914	Skeleton_Footsteps_06	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_06		23124
 	421962913	Skeleton_Revolver_06	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_06		71036
 	426850398	fight	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\fight_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Combat\Combat_Am\fight		11289696
@@ -41,8 +48,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	789921876	Skeleton_Footsteps_07	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_07		28212
 	793813913	Byk_Defeat_Muczenie_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Byk_Defeat_Muczenie_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Byk_Defeat\Byk_Defeat_Muczenie_04		529360
 	799027892	Ambient_Empty_Room_Em_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Ambient_Empty_Room_Em_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Ambient\Ambient_Empty_Room_Em_01\Ambient_Empty_Room_Em_01		11289760
+	825420739	Bohater_Revolver	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Revolver_Bohater_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Revolver		183284
 	866973072	Skeleton_Footsteps_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_03		28268
 	892180961	Skeleton_Revolver_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_01		70844
+	926950665	Shotgun_Bohater_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shotgun_Bohater_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Shotgun\Shotgun_Bohater_04		177588
 	944560543	Footsteps_Cowboy_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_03		26802
 	950612327	Skeleton_Footsteps_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_04		31944
 	970382954	Byk_Szarza_Z_Oddechem_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Byk_Szarza_Z_Oddechem_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Byk_Szarza\Byk_Szarza_Z_Oddechem_01		589352

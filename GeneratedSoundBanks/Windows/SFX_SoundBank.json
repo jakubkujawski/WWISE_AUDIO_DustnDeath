@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{DB43B743-73CA-A85A-8C4A-A3814CA2AEFF}",
+    "Hash": "{7E007A1E-9668-D051-8D2E-48DAEC90D3E6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Skeleton_Footsteps_05.wav",
       "CachePath": "SFX/Skeleton_Footsteps_05_10C4C929.wem"
+     },
+     {
+      "Id": "151112017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breaking_Wooden_Barrel_04.wav",
+      "CachePath": "SFX/Breaking_Wooden_Barrel_04_10C4C929.wem"
      },
      {
       "Id": "168197871",
@@ -96,12 +104,36 @@
       "CachePath": "SFX/Skeleton_Revolver_04_10C4C929.wem"
      },
      {
+      "Id": "320682329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shotgun_Bohater_03.wav",
+      "CachePath": "SFX/Shotgun_Bohater_03_10C4C929.wem"
+     },
+     {
+      "Id": "332395475",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shotgun_Bohater_02.wav",
+      "CachePath": "SFX/Shotgun_Bohater_02_10C4C929.wem"
+     },
+     {
       "Id": "333856010",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Skeleton_Defeat_001.wav",
       "CachePath": "SFX/Skeleton_Defeat_001_10C4C929.wem"
+     },
+     {
+      "Id": "337331998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breaking_Wooden_Barrel_02.wav",
+      "CachePath": "SFX/Breaking_Wooden_Barrel_02_10C4C929.wem"
      },
      {
       "Id": "419600914",
@@ -184,6 +216,14 @@
       "CachePath": "SFX/Ambient_Empty_Room_Em_01_D79FB2B7.wem"
      },
      {
+      "Id": "825420739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Revolver_Bohater_01.wav",
+      "CachePath": "SFX/Revolver_Bohater_01_10C4C929.wem"
+     },
+     {
       "Id": "866973072",
       "Language": "SFX",
       "Streaming": "false",
@@ -198,6 +238,14 @@
       "Location": "Memory",
       "ShortName": "Skeleton_Revolver_01.wav",
       "CachePath": "SFX/Skeleton_Revolver_01_10C4C929.wem"
+     },
+     {
+      "Id": "926950665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shotgun_Bohater_04.wav",
+      "CachePath": "SFX/Shotgun_Bohater_04_10C4C929.wem"
      },
      {
       "Id": "944560543",
@@ -241,6 +289,57 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1865588041",
+      "Name": "Barrel_Breakable",
+      "ObjectPath": "\\Events\\Default Work Unit\\PROPS\\Barrel_Breakable",
+      "GUID": "{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2630386",
+      "DurationMax": "2.7333786",
+      "MediaRefs": [
+       {
+        "Id": "151112017"
+       },
+       {
+        "Id": "337331998"
+       }
+      ]
+     },
+     {
+      "Id": "1890751152",
+      "Name": "Bohater_Revolver",
+      "ObjectPath": "\\Events\\Default Work Unit\\BOHATER\\Bohater_Revolver",
+      "GUID": "{0933DB76-8366-4CC9-9961-E01F73652562}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0769615",
+      "DurationMax": "2.0769615",
+      "MediaRefs": [
+       {
+        "Id": "825420739"
+       }
+      ]
+     },
+     {
+      "Id": "512941277",
+      "Name": "Bohater_Shotgun",
+      "ObjectPath": "\\Events\\Default Work Unit\\BOHATER\\Bohater_Shotgun",
+      "GUID": "{2075B705-DF75-45D2-860B-4017D4654007}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9827892",
+      "DurationMax": "2.0123808",
+      "MediaRefs": [
+       {
+        "Id": "320682329"
+       },
+       {
+        "Id": "332395475"
+       },
+       {
+        "Id": "926950665"
+       }
+      ]
+     },
      {
       "Id": "1067633203",
       "Name": "Boss_Floating",
@@ -494,6 +593,6 @@
     ]
    }
   ],
-  "FileHash": "{97E25F51-E074-AB98-D5BB-491ACA3CD821}"
+  "FileHash": "{5B998C9B-3B4C-810E-FAA8-FA2C76506335}"
  }
 }
