@@ -56,16 +56,16 @@
         "GUID": "{4F4250CF-7B91-4746-A334-A9C296623EA1}"
        },
        {
+        "Id": "251412225",
+        "Name": "Shop",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Shop",
+        "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
+       },
+       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
         "GUID": "{54379189-9603-45F0-92D3-7732AB52B0F0}"
-       },
-       {
-        "Id": "2582085496",
-        "Name": "Exploration",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Exploration",
-        "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
        },
        {
         "Id": "2607556080",
@@ -84,6 +84,6 @@
     ]
    }
   ],
-  "FileHash": "{07511A16-89C9-A7B8-9A4D-93269CD3B5C8}"
+  "FileHash": "{FDCE010D-3D65-7DBE-6B2C-0B09853074CF}"
  }
 }

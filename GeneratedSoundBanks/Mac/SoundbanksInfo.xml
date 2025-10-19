@@ -26,8 +26,8 @@
 				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{AEA78707-40E9-45DE-B79F-6B2BB1C1B702}">
 					<States>
 						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\Music\Ambient" GUID="{4F4250CF-7B91-4746-A334-A9C296623EA1}"/>
+						<State Id="251412225" Name="Shop" ObjectPath="\States\Default Work Unit\Music\Shop" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{54379189-9603-45F0-92D3-7732AB52B0F0}"/>
-						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\Music\Exploration" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
 						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu" GUID="{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"/>
 						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Music\Combat" GUID="{8DEA339E-81D6-415A-A017-D06A55A406FF}"/>
 					</States>
@@ -39,7 +39,7 @@
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{7E007A1E-9668-D051-8D2E-48DAEC90D3E6}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{4B0A384E-16A2-0697-DDAF-3E69E9EB7F73}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -123,6 +123,10 @@
 				<File Id="470679861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Defeat_003.wav</ShortName>
 					<CachePath>SFX/Skeleton_Defeat_003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="668333987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shop_01.wav</ShortName>
+					<CachePath>SFX/Shop_01_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="722475529" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Byk_Szarza_Z_Oddechem_02.wav</ShortName>
@@ -251,6 +255,12 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="251412225" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
+							<MediaRefs>
+								<MediaRef Id="668333987"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="3991942870" Id="2607556080" GUID="{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"/>
 							<MediaRefs>
 								<MediaRef Id="442075739"/>
@@ -285,8 +295,8 @@
 				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{AEA78707-40E9-45DE-B79F-6B2BB1C1B702}">
 					<States>
 						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\Music\Ambient" GUID="{4F4250CF-7B91-4746-A334-A9C296623EA1}"/>
+						<State Id="251412225" Name="Shop" ObjectPath="\States\Default Work Unit\Music\Shop" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{54379189-9603-45F0-92D3-7732AB52B0F0}"/>
-						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\Music\Exploration" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
 						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu" GUID="{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"/>
 						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Music\Combat" GUID="{8DEA339E-81D6-415A-A017-D06A55A406FF}"/>
 					</States>
@@ -294,5 +304,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6CBEBA85-16EC-9223-CE44-9365F77C840E}</FileHash>
+	<FileHash>{53BCB827-E31A-34B4-7ED4-E0B5633F564C}</FileHash>
 </SoundBanksInfo>

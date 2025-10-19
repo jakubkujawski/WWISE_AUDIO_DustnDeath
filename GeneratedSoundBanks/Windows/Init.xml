@@ -18,8 +18,8 @@
 				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{AEA78707-40E9-45DE-B79F-6B2BB1C1B702}">
 					<States>
 						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\Music\Ambient" GUID="{4F4250CF-7B91-4746-A334-A9C296623EA1}"/>
+						<State Id="251412225" Name="Shop" ObjectPath="\States\Default Work Unit\Music\Shop" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{54379189-9603-45F0-92D3-7732AB52B0F0}"/>
-						<State Id="2582085496" Name="Exploration" ObjectPath="\States\Default Work Unit\Music\Exploration" GUID="{54DC25F7-86BB-4885-853C-5E262EA974D9}"/>
 						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu" GUID="{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"/>
 						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Music\Combat" GUID="{8DEA339E-81D6-415A-A017-D06A55A406FF}"/>
 					</States>
@@ -27,5 +27,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9FB95292-4CFC-72D8-34DE-0953CE216772}</FileHash>
+	<FileHash>{08F14A47-F2E6-12DE-5A34-82157632CADE}</FileHash>
 </SoundBanksInfo>

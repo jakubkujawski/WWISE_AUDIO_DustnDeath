@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{7E007A1E-9668-D051-8D2E-48DAEC90D3E6}",
+    "Hash": "{4B0A384E-16A2-0697-DDAF-3E69E9EB7F73}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -174,6 +174,14 @@
       "Location": "Memory",
       "ShortName": "Skeleton_Defeat_003.wav",
       "CachePath": "SFX/Skeleton_Defeat_003_10C4C929.wem"
+     },
+     {
+      "Id": "668333987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shop_01.wav",
+      "CachePath": "SFX/Shop_01_D79FB2B7.wem"
      },
      {
       "Id": "722475529",
@@ -478,6 +486,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "3991942870",
+         "Id": "251412225",
+         "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "668333987"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
          "Id": "2607556080",
          "GUID": "{E4B78423-7AE2-42B1-94F8-EF87669FBE18}"
         },
@@ -565,16 +586,16 @@
         "GUID": "{4F4250CF-7B91-4746-A334-A9C296623EA1}"
        },
        {
+        "Id": "251412225",
+        "Name": "Shop",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Shop",
+        "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
+       },
+       {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
         "GUID": "{54379189-9603-45F0-92D3-7732AB52B0F0}"
-       },
-       {
-        "Id": "2582085496",
-        "Name": "Exploration",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Exploration",
-        "GUID": "{54DC25F7-86BB-4885-853C-5E262EA974D9}"
        },
        {
         "Id": "2607556080",
@@ -593,6 +614,6 @@
     ]
    }
   ],
-  "FileHash": "{5B998C9B-3B4C-810E-FAA8-FA2C76506335}"
+  "FileHash": "{DC23E490-D6B7-6978-57A0-0E47C7DD04D4}"
  }
 }
