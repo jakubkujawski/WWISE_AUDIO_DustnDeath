@@ -106,7 +106,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{FE1C8971-BBE6-BF34-A6C1-81D53D1907AD}",
+    "Hash": "{B6D874B3-9EBA-B634-CC7C-788D29C87373}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -197,7 +197,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Latarnia_Ladowanie_02.wav",
-      "CachePath": "SFX/Latarnia_Ladowanie_02_10C4C929.wem"
+      "CachePath": "SFX/Latarnia_Ladowanie_02_C2EF47B5.wem"
      },
      {
       "Id": "185286278",
@@ -718,8 +718,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\PROPS\\Barrel_Breakable",
       "GUID": "{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}",
       "DurationType": "OneShot",
-      "DurationMin": "2.2630386",
-      "DurationMax": "2.7333786",
+      "DurationMin": "2.1360238",
+      "DurationMax": "3.0681138",
       "MediaRefs": [
        {
         "Id": "151112017"
@@ -735,8 +735,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BOHATER\\Bohater_Revolver",
       "GUID": "{0933DB76-8366-4CC9-9961-E01F73652562}",
       "DurationType": "OneShot",
-      "DurationMin": "2.0769615",
-      "DurationMax": "2.0769615",
+      "DurationMin": "1.8503623",
+      "DurationMax": "2.2004642",
       "MediaRefs": [
        {
         "Id": "825420739"
@@ -749,8 +749,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BOHATER\\Bohater_Shotgun",
       "GUID": "{2075B705-DF75-45D2-860B-4017D4654007}",
       "DurationType": "OneShot",
-      "DurationMin": "1.9827892",
-      "DurationMax": "2.0123808",
+      "DurationMin": "1.8182257",
+      "DurationMax": "2.1320434",
       "MediaRefs": [
        {
         "Id": "320682329"
@@ -781,8 +781,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BYK (BOSS)\\Byk_Defeat",
       "GUID": "{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}",
       "DurationType": "OneShot",
-      "DurationMin": "3",
-      "DurationMax": "3",
+      "DurationMin": "2.9145958",
+      "DurationMax": "3.0879068",
       "MediaRefs": [
        {
         "Id": "274989946"
@@ -798,8 +798,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\BYK (BOSS)\\Byk_Szarza",
       "GUID": "{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}",
       "DurationType": "OneShot",
-      "DurationMin": "3.3400908",
-      "DurationMax": "3.3400908",
+      "DurationMin": "3.1526256",
+      "DurationMax": "3.538703",
       "MediaRefs": [
        {
         "Id": "722475529"
@@ -815,8 +815,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Atak",
       "GUID": "{D64F27D3-99CB-49F6-A06C-E882155595CC}",
       "DurationType": "OneShot",
-      "DurationMin": "0.6534694",
-      "DurationMax": "0.8847392",
+      "DurationMin": "0.6275743",
+      "DurationMax": "0.9106641",
       "MediaRefs": [
        {
         "Id": "114916208"
@@ -878,8 +878,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Defeat",
       "GUID": "{C90D0198-19A0-489C-A114-5F5A7BDF98EB}",
       "DurationType": "OneShot",
-      "DurationMin": "2.9651928",
-      "DurationMax": "3.0275965",
+      "DurationMin": "2.8476908",
+      "DurationMax": "3.1163118",
       "MediaRefs": [
        {
         "Id": "241780859"
@@ -898,8 +898,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Obrazenia",
       "GUID": "{04168959-E214-4DB8-95E1-5A9E6AE77A11}",
       "DurationType": "OneShot",
-      "DurationMin": "1.2639003",
-      "DurationMax": "1.7694558",
+      "DurationMin": "1.2350328",
+      "DurationMax": "1.8003855",
       "MediaRefs": [
        {
         "Id": "264290010"
@@ -941,8 +941,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Odmarzanie",
       "GUID": "{C654B045-ACAA-4B29-B3B8-C85A3DE3D0CA}",
       "DurationType": "OneShot",
-      "DurationMin": "1.3902948",
-      "DurationMax": "2.5277777",
+      "DurationMin": "1.3585405",
+      "DurationMax": "2.5868616",
       "MediaRefs": [
        {
         "Id": "146278858"
@@ -961,8 +961,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Cowboy",
       "GUID": "{601611BB-9B6D-4E95-A894-03DDDBA94267}",
       "DurationType": "OneShot",
-      "DurationMin": "0.28139177",
-      "DurationMax": "0.3426106",
+      "DurationMin": "0.25069156",
+      "DurationMax": "0.38456738",
       "MediaRefs": [
        {
         "Id": "19040402"
@@ -984,8 +984,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Skeleton",
       "GUID": "{6F10B75B-D146-4008-BF01-9CCEA62A2361}",
       "DurationType": "OneShot",
-      "DurationMin": "0.13054422",
-      "DurationMax": "0.19907013",
+      "DurationMin": "0.12321732",
+      "DurationMax": "0.21090746",
       "MediaRefs": [
        {
         "Id": "91713407"
@@ -1047,8 +1047,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\PROPS\\Latarnia\\Latarnia_Blysk",
       "GUID": "{FCF70220-DAF8-4B59-868A-55CE80767476}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "1.8877485",
+      "DurationMax": "2.1189263",
       "MediaRefs": [
        {
         "Id": "1042175354"
@@ -1061,8 +1061,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\PROPS\\Latarnia\\Latarnia_Ladowanie",
       "GUID": "{CD1F6E8F-4E7F-4923-AE09-33A38D8C7243}",
       "DurationType": "OneShot",
-      "DurationMin": "7",
-      "DurationMax": "7",
+      "DurationMin": "6.9604273",
+      "DurationMax": "6.9604273",
       "MediaRefs": [
        {
         "Id": "182642059"
@@ -1238,8 +1238,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Skeleton_Revolver",
       "GUID": "{541781B4-4471-40D2-9B89-7C114803B82E}",
       "DurationType": "OneShot",
-      "DurationMin": "0.39918366",
-      "DurationMax": "0.4017914",
+      "DurationMin": "0.37677917",
+      "DurationMax": "0.42568317",
       "MediaRefs": [
        {
         "Id": "172264929"
@@ -1304,6 +1304,6 @@
     ]
    }
   ],
-  "FileHash": "{6AC3F7E1-DF50-35C1-7D85-F9612D87DE78}"
+  "FileHash": "{2C120689-8D1D-4462-2B2C-6EC4ED4485ED}"
  }
 }

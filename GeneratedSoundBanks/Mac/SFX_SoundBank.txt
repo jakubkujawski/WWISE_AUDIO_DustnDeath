@@ -40,7 +40,7 @@ State	ID	Name	State Group			Notes
 	2764240573	Combat	Music			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	19040402	Footsteps_Cowboy_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_04		25794
+	19040402	Footsteps_Cowboy_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Footsteps_Cowboy\Footsteps_Cowboy_04		25794
 	26209547	Artbook_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Artbook_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Artbook\Artbook_01		52466
 	91713407	Skeleton_Footsteps_05	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_05		35620
 	114916208	Duch_Atak_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Atak_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Atak\Duch_Atak_04		72556
@@ -50,13 +50,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	165281373	Money_Wydawanie_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Money_Wydawanie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Money\Money_Wydawanie_03		77272
 	168197871	Boss_Floating_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Boss_Floating_03_4B13FC70.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Boss_Floating_03		589472
 	172264929	Skeleton_Revolver_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_03		71000
-	182642059	Latarnia_Ladowanie_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Latarnia_Ladowanie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Latarnia\Latarnia_Ladowanie_02		617496
+	182642059	Latarnia_Ladowanie_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Latarnia_Ladowanie_02_C2EF47B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Latarnia\Latarnia_Ladowanie_02		614006
 	185286278	Duch_Daleko	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Nieodkryty_Daleko_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Daleko		1961096
 	187481458	Skeleton_Revolver_05	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_05		71000
 	212723632	Najezdzanie_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Najezdzanie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Najezdzanie_03		37118
 	228458807	Duch_Odmarzanie_03_1	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Odmarzanie_03.1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Odmarzanie\Duch_Odmarzanie_03_1		122720
 	233644923	Skeleton_Footsteps_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_02		29316
-	241008188	Footsteps_Cowboy_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_01		25642
+	241008188	Footsteps_Cowboy_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Footsteps_Cowboy\Footsteps_Cowboy_01		25642
 	241780859	Duch_Defeat_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Defeat_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Defeat\Duch_Defeat_02		523220
 	252099781	Duch_Jest_Blisko_Skradanie_Nieodkrytego_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Jest_Blisko_Skradanie_Nieodkrytego_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Skradanie_Nieodkrytego_Ducha\Duch_Jest_Blisko_Skradanie_Nieodkrytego_01		301148
 	264290010	Duch_Obrazenia_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Obrazenia_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Obrazenia\Duch_Obrazenia_03		111572
@@ -102,10 +102,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	866973072	Skeleton_Footsteps_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_03		28268
 	892180961	Skeleton_Revolver_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_01		70844
 	926950665	Shotgun_Bohater_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shotgun_Bohater_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Shotgun\Shotgun_Bohater_04		177588
-	944560543	Footsteps_Cowboy_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_03		26802
+	944560543	Footsteps_Cowboy_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Footsteps_Cowboy\Footsteps_Cowboy_03		26802
 	950612327	Skeleton_Footsteps_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_04		31944
 	970382954	Byk_Szarza_Z_Oddechem_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Byk_Szarza_Z_Oddechem_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Byk_Szarza\Byk_Szarza_Z_Oddechem_01		589352
-	978095168	Footsteps_Cowboy_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_Cowboy\Footsteps_Cowboy_02		29454
+	978095168	Footsteps_Cowboy_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Footsteps_Cowboy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Footsteps_Cowboy\Footsteps_Cowboy_02		29454
 	979629848	Duch_Atak_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Atak_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Atak\Duch_Atak_01		57732
 	1026436045	Duch_Odmarzanie_03_2	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Odmarzanie_03.2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Odmarzanie\Duch_Odmarzanie_03_2		223046
 	1029818061	Skeleton_Footsteps_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_01		30200

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{FE1C8971-BBE6-BF34-A6C1-81D53D1907AD}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{B6D874B3-9EBA-B634-CC7C-788D29C87373}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -48,7 +48,7 @@
 				</File>
 				<File Id="182642059" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Latarnia_Ladowanie_02.wav</ShortName>
-					<CachePath>SFX/Latarnia_Ladowanie_02_10C4C929.wem</CachePath>
+					<CachePath>SFX/Latarnia_Ladowanie_02_C2EF47B5.wem</CachePath>
 				</File>
 				<File Id="185286278" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Duch_Nieodkryty_Daleko_01.wav</ShortName>
@@ -304,18 +304,18 @@
 						<MediaRef Id="837435580"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1865588041" Name="Barrel_Breakable" ObjectPath="\Events\Default Work Unit\PROPS\Barrel_Breakable" GUID="{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}" DurationType="OneShot" DurationMin="2.2630386" DurationMax="2.7333786">
+				<Event Id="1865588041" Name="Barrel_Breakable" ObjectPath="\Events\Default Work Unit\PROPS\Barrel_Breakable" GUID="{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}" DurationType="OneShot" DurationMin="2.1360238" DurationMax="3.0681138">
 					<MediaRefs>
 						<MediaRef Id="151112017"/>
 						<MediaRef Id="337331998"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1890751152" Name="Bohater_Revolver" ObjectPath="\Events\Default Work Unit\BOHATER\Bohater_Revolver" GUID="{0933DB76-8366-4CC9-9961-E01F73652562}" DurationType="OneShot" DurationMin="2.0769615" DurationMax="2.0769615">
+				<Event Id="1890751152" Name="Bohater_Revolver" ObjectPath="\Events\Default Work Unit\BOHATER\Bohater_Revolver" GUID="{0933DB76-8366-4CC9-9961-E01F73652562}" DurationType="OneShot" DurationMin="1.8503623" DurationMax="2.2004642">
 					<MediaRefs>
 						<MediaRef Id="825420739"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="512941277" Name="Bohater_Shotgun" ObjectPath="\Events\Default Work Unit\BOHATER\Bohater_Shotgun" GUID="{2075B705-DF75-45D2-860B-4017D4654007}" DurationType="OneShot" DurationMin="1.9827892" DurationMax="2.0123808">
+				<Event Id="512941277" Name="Bohater_Shotgun" ObjectPath="\Events\Default Work Unit\BOHATER\Bohater_Shotgun" GUID="{2075B705-DF75-45D2-860B-4017D4654007}" DurationType="OneShot" DurationMin="1.8182257" DurationMax="2.1320434">
 					<MediaRefs>
 						<MediaRef Id="320682329"/>
 						<MediaRef Id="332395475"/>
@@ -327,19 +327,19 @@
 						<MediaRef Id="168197871"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="54786789" Name="Byk_Defeat" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Byk_Defeat" GUID="{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}" DurationType="OneShot" DurationMin="3" DurationMax="3">
+				<Event Id="54786789" Name="Byk_Defeat" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Byk_Defeat" GUID="{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}" DurationType="OneShot" DurationMin="2.9145958" DurationMax="3.0879068">
 					<MediaRefs>
 						<MediaRef Id="274989946"/>
 						<MediaRef Id="793813913"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1949405673" Name="Byk_Szarza" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Byk_Szarza" GUID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" DurationType="OneShot" DurationMin="3.3400908" DurationMax="3.3400908">
+				<Event Id="1949405673" Name="Byk_Szarza" ObjectPath="\Events\Default Work Unit\BYK (BOSS)\Byk_Szarza" GUID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" DurationType="OneShot" DurationMin="3.1526256" DurationMax="3.538703">
 					<MediaRefs>
 						<MediaRef Id="722475529"/>
 						<MediaRef Id="970382954"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="233780583" Name="Duch_Atak" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Atak" GUID="{D64F27D3-99CB-49F6-A06C-E882155595CC}" DurationType="OneShot" DurationMin="0.6534694" DurationMax="0.8847392">
+				<Event Id="233780583" Name="Duch_Atak" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Atak" GUID="{D64F27D3-99CB-49F6-A06C-E882155595CC}" DurationType="OneShot" DurationMin="0.6275743" DurationMax="0.9106641">
 					<MediaRefs>
 						<MediaRef Id="114916208"/>
 						<MediaRef Id="485566382"/>
@@ -361,14 +361,14 @@
 						<MediaRef Id="185286278"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="304274113" Name="Duch_Defeat" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Defeat" GUID="{C90D0198-19A0-489C-A114-5F5A7BDF98EB}" DurationType="OneShot" DurationMin="2.9651928" DurationMax="3.0275965">
+				<Event Id="304274113" Name="Duch_Defeat" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Defeat" GUID="{C90D0198-19A0-489C-A114-5F5A7BDF98EB}" DurationType="OneShot" DurationMin="2.8476908" DurationMax="3.1163118">
 					<MediaRefs>
 						<MediaRef Id="241780859"/>
 						<MediaRef Id="298912863"/>
 						<MediaRef Id="624990754"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2374493969" Name="Duch_Obrazenia" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Obrazenia" GUID="{04168959-E214-4DB8-95E1-5A9E6AE77A11}" DurationType="OneShot" DurationMin="1.2639003" DurationMax="1.7694558">
+				<Event Id="2374493969" Name="Duch_Obrazenia" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Obrazenia" GUID="{04168959-E214-4DB8-95E1-5A9E6AE77A11}" DurationType="OneShot" DurationMin="1.2350328" DurationMax="1.8003855">
 					<MediaRefs>
 						<MediaRef Id="264290010"/>
 						<MediaRef Id="544844802"/>
@@ -383,14 +383,14 @@
 						<MediaRef Id="585073203"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1453207116" Name="Duch_Odmarzanie" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Odmarzanie" GUID="{C654B045-ACAA-4B29-B3B8-C85A3DE3D0CA}" DurationType="OneShot" DurationMin="1.3902948" DurationMax="2.5277777">
+				<Event Id="1453207116" Name="Duch_Odmarzanie" ObjectPath="\Events\Default Work Unit\DUCH\Duch_Odmarzanie" GUID="{C654B045-ACAA-4B29-B3B8-C85A3DE3D0CA}" DurationType="OneShot" DurationMin="1.3585405" DurationMax="2.5868616">
 					<MediaRefs>
 						<MediaRef Id="146278858"/>
 						<MediaRef Id="228458807"/>
 						<MediaRef Id="1026436045"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4269851612" Name="Footsteps_Cowboy" ObjectPath="\Events\Default Work Unit\Footsteps_Cowboy" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.28139177" DurationMax="0.3426106">
+				<Event Id="4269851612" Name="Footsteps_Cowboy" ObjectPath="\Events\Default Work Unit\Footsteps_Cowboy" GUID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" DurationType="OneShot" DurationMin="0.25069156" DurationMax="0.38456738">
 					<MediaRefs>
 						<MediaRef Id="19040402"/>
 						<MediaRef Id="241008188"/>
@@ -398,7 +398,7 @@
 						<MediaRef Id="978095168"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="649649136" Name="Footsteps_Skeleton" ObjectPath="\Events\Default Work Unit\Footsteps_Skeleton" GUID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" DurationType="OneShot" DurationMin="0.13054422" DurationMax="0.19907013">
+				<Event Id="649649136" Name="Footsteps_Skeleton" ObjectPath="\Events\Default Work Unit\Footsteps_Skeleton" GUID="{6F10B75B-D146-4008-BF01-9CCEA62A2361}" DurationType="OneShot" DurationMin="0.12321732" DurationMax="0.21090746">
 					<MediaRefs>
 						<MediaRef Id="91713407"/>
 						<MediaRef Id="233644923"/>
@@ -420,12 +420,12 @@
 						<MediaRef Id="340182055"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2590602363" Name="Latarnia_Blysk" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Blysk" GUID="{FCF70220-DAF8-4B59-868A-55CE80767476}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="2590602363" Name="Latarnia_Blysk" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Blysk" GUID="{FCF70220-DAF8-4B59-868A-55CE80767476}" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
 					<MediaRefs>
 						<MediaRef Id="1042175354"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="268474196" Name="Latarnia_Ladowanie" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Ladowanie" GUID="{CD1F6E8F-4E7F-4923-AE09-33A38D8C7243}" DurationType="OneShot" DurationMin="7" DurationMax="7">
+				<Event Id="268474196" Name="Latarnia_Ladowanie" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Ladowanie" GUID="{CD1F6E8F-4E7F-4923-AE09-33A38D8C7243}" DurationType="OneShot" DurationMin="6.9604273" DurationMax="6.9604273">
 					<MediaRefs>
 						<MediaRef Id="182642059"/>
 					</MediaRefs>
@@ -495,7 +495,7 @@
 						<MediaRef Id="732880513"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2331497394" Name="Skeleton_Revolver" ObjectPath="\Events\Default Work Unit\Skeleton_Revolver" GUID="{541781B4-4471-40D2-9B89-7C114803B82E}" DurationType="OneShot" DurationMin="0.39918366" DurationMax="0.4017914">
+				<Event Id="2331497394" Name="Skeleton_Revolver" ObjectPath="\Events\Default Work Unit\Skeleton_Revolver" GUID="{541781B4-4471-40D2-9B89-7C114803B82E}" DurationType="OneShot" DurationMin="0.37677917" DurationMax="0.42568317">
 					<MediaRefs>
 						<MediaRef Id="172264929"/>
 						<MediaRef Id="187481458"/>
@@ -519,5 +519,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DA982416-A685-B761-6619-82FC0BD09748}</FileHash>
+	<FileHash>{B2D0F112-4846-F81C-4823-EFB12BA39924}</FileHash>
 </SoundBanksInfo>
