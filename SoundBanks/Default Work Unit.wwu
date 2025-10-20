@@ -20,6 +20,7 @@
 						<ObjectRef Name="Skeleton_Defeat" ID="{8D48B589-B448-496D-84F3-6B38B02D61FF}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Barrel_Breakable" ID="{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Byk_Szarza" ID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DUCH" ID="{151F7702-541E-4C41-8F76-0EE8C0C19439}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bohater_Revolver" ID="{0933DB76-8366-4CC9-9961-E01F73652562}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Byk_Defeat" ID="{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Cowboy" ID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>

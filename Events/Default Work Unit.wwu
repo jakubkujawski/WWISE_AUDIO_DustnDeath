@@ -147,6 +147,91 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="DUCH" ID="{151F7702-541E-4C41-8F76-0EE8C0C19439}" ShortID="858433936">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Duch_Atak" ID="{D64F27D3-99CB-49F6-A06C-E882155595CC}">
+							<ChildrenList>
+								<Action Name="" ID="{8F14E485-CBC2-433A-900B-490F930C11C8}" ShortID="816265127">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Atak" ID="{08C7C968-8BFB-49DE-9BEA-2FBDB99229E6}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Duch_Defeat" ID="{C90D0198-19A0-489C-A114-5F5A7BDF98EB}">
+							<ChildrenList>
+								<Action Name="" ID="{ABCA1EB9-5C11-4A26-A56F-DB547D4314C8}" ShortID="542756109">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Defeat" ID="{AB09883C-E6F1-4516-A880-422DAB79CEA1}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Duch_Obrazenia" ID="{04168959-E214-4DB8-95E1-5A9E6AE77A11}">
+							<ChildrenList>
+								<Action Name="" ID="{AAB858A7-8712-45EF-AB01-AE1B1918C182}" ShortID="730699670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Obrazenia" ID="{E4BD9464-0227-4343-B03B-86454C2A2B44}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Duch_Daleko" ID="{EF45B428-870D-45FB-9F5D-F0BD4ABC9B02}">
+							<ChildrenList>
+								<Action Name="" ID="{D88A5E26-4A3F-4E55-B744-2B1350C07016}" ShortID="815557739">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Daleko" ID="{1E98E53A-67D2-44BA-BB7E-624043B5D001}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Duch_Blisko" ID="{33B6DE9F-C61D-4271-A7C1-7177E14CCCD8}">
+							<ChildrenList>
+								<Action Name="" ID="{EE7DDB4C-007E-4398-96BE-7A03FFA725A2}" ShortID="811075909">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skradanie_Nieodkrytego_Ducha" ID="{0696DA90-0CE5-46E3-9FCB-A56326EB118C}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Duch_Odkrycie" ID="{5D64604B-318A-44B5-8A1D-8AC29525E0A5}">
+							<ChildrenList>
+								<Action Name="" ID="{F3E9DDD4-B31F-4A6B-9DAB-8AAC641C572C}" ShortID="1022655207">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Odkrycie" ID="{0C8190AF-1EE2-452B-A10B-2EDAD68D287A}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Duch_Odmarzanie" ID="{C654B045-ACAA-4B29-B3B8-C85A3DE3D0CA}">
+							<ChildrenList>
+								<Action Name="" ID="{9E4D1D5D-DFED-4F53-9DE3-C9B9540EBCC1}" ShortID="459189654">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Odmarzanie" ID="{3DC8F234-EA7B-4206-8486-DEAE545B7BF0}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

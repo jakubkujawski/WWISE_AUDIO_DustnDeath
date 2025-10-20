@@ -872,6 +872,592 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SZKIELET" ID="{DEC8C26B-B2BB-49AF-BD85-0725E5C352A6}" ShortID="339705383"/>
+				<Folder Name="DUCH" ID="{1779961F-E6A9-44EA-85E2-294BC7A9ECE6}" ShortID="933204452">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Skradanie_Nieodkrytego_Ducha" ID="{0696DA90-0CE5-46E3-9FCB-A56326EB118C}" ShortID="911865912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{322040D7-EABE-47C7-8DA1-8DC9A9A7BF59}" ShortID="722122923">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{2D830254-A569-4D86-9A5E-6728FB4CAF60}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="252099781"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{2D830254-A569-4D86-9A5E-6728FB4CAF60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{BC3D61AF-5F43-46D1-A3F4-7BF96E39C7E8}" ShortID="714032150">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{5A78AB10-B9AF-4938-8155-A5852114E290}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="420330111"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{5A78AB10-B9AF-4938-8155-A5852114E290}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{B9321936-D787-444B-8C47-C1404EA3851D}" ShortID="331023905">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{C7194CFA-8475-4A9E-836B-F4FE4F6689FA}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="825777639"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{C7194CFA-8475-4A9E-836B-F4FE4F6689FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{66969B46-8837-431B-BB72-02696AE64B69}" ShortID="40801193">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{F96D9E1F-D101-45C0-9FE4-10DC54BC3923}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="138750629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{F96D9E1F-D101-45C0-9FE4-10DC54BC3923}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Duch_Defeat" ID="{AB09883C-E6F1-4516-A880-422DAB79CEA1}" ShortID="227889767">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Duch_Defeat_02" ID="{35C3A8F8-B267-49EE-9001-C093E9399CB1}" ShortID="69627744">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Defeat_02" ID="{CB633731-47CE-40EB-8E02-5D7BF329F3E1}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Defeat_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="241780859"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Defeat_02" ID="{CB633731-47CE-40EB-8E02-5D7BF329F3E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Defeat_04" ID="{5388904B-25B9-4822-BD83-945F0698044F}" ShortID="1014373317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Defeat_04" ID="{FFCE06C9-A5DB-4F00-83DC-525675EF9BDF}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Defeat_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298912863"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Defeat_04" ID="{FFCE06C9-A5DB-4F00-83DC-525675EF9BDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Defeat_06" ID="{397D00E2-474E-4058-A27F-98C8A9607CEA}" ShortID="231756594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Defeat_06" ID="{0BAEEB8B-AE70-493D-BD04-BF72E94FA274}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Defeat_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="624990754"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Defeat_06" ID="{0BAEEB8B-AE70-493D-BD04-BF72E94FA274}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Duch_Obrazenia" ID="{E4BD9464-0227-4343-B03B-86454C2A2B44}" ShortID="80359837">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Duch_Obrazenia_01" ID="{CFF6075D-CAE3-4D18-888E-A22220B87C60}" ShortID="910876435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Obrazenia_01" ID="{BDB04C9A-A150-4E1C-987B-03E5927CC703}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Obrazenia_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="544844802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Obrazenia_01" ID="{BDB04C9A-A150-4E1C-987B-03E5927CC703}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Obrazenia_02" ID="{99AF6E3F-4E16-4645-90F6-EC366EBFDC00}" ShortID="595614524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Obrazenia_02" ID="{789DB4B9-4D98-4A62-9644-C8032649B11A}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Obrazenia_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734436931"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Obrazenia_02" ID="{789DB4B9-4D98-4A62-9644-C8032649B11A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Obrazenia_03" ID="{03DD2921-1F2D-4464-A4C7-0A715BAE4C3E}" ShortID="440080618">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Obrazenia_03" ID="{60F2F9F3-C596-4C84-A114-4AFE4F7054D2}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Obrazenia_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="264290010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Obrazenia_03" ID="{60F2F9F3-C596-4C84-A114-4AFE4F7054D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Obrazenia_04" ID="{0B7E55F8-6C51-471C-858C-E47D6C543631}" ShortID="60163201">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Obrazenia_04" ID="{C9BB30A9-1FAF-4192-BF2C-98AA04707A84}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Obrazenia_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="661055294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Obrazenia_04" ID="{C9BB30A9-1FAF-4192-BF2C-98AA04707A84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Duch_Daleko" ID="{1E98E53A-67D2-44BA-BB7E-624043B5D001}" ShortID="645027959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Duch_Nieodkryty_Daleko_01" ID="{CB9667EE-2FDE-4BF3-AE9B-3E75EA18A44B}">
+									<Language>SFX</Language>
+									<AudioFile>Duch_Nieodkryty_Daleko_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="185286278"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Duch_Nieodkryty_Daleko_01" ID="{CB9667EE-2FDE-4BF3-AE9B-3E75EA18A44B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Duch_Atak" ID="{08C7C968-8BFB-49DE-9BEA-2FBDB99229E6}" ShortID="1018319226">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Duch_Atak_01" ID="{36405307-9A3B-4C6C-9B1C-C86AF4F61626}" ShortID="540425044">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Atak_01" ID="{EDC17E87-A084-4FF8-B69C-B3D4F7B7488B}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Atak_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="979629848"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Atak_01" ID="{EDC17E87-A084-4FF8-B69C-B3D4F7B7488B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Atak_02" ID="{95C7431C-12F1-492F-9D57-2A5EDB68F1ED}" ShortID="687107464">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Atak_02" ID="{329345D3-5A38-43DE-AFE8-1042BE7B7883}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Atak_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="808156798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Atak_02" ID="{329345D3-5A38-43DE-AFE8-1042BE7B7883}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Atak_03" ID="{7937238A-659A-437F-BCF4-CB02AE7E60BE}" ShortID="807840624">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Atak_03" ID="{FF57D887-3981-4017-A618-0BE98CD79056}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Atak_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485566382"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Atak_03" ID="{FF57D887-3981-4017-A618-0BE98CD79056}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Atak_04" ID="{B589BD59-DDE1-4E0A-9B1F-CBA607775396}" ShortID="99068720">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Atak_04" ID="{092A89C1-583F-473B-B19D-CE12031B111A}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Atak_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114916208"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Atak_04" ID="{092A89C1-583F-473B-B19D-CE12031B111A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Atak_05" ID="{7B43A2FF-3749-47F7-B06E-987EC3E382F7}" ShortID="1072553733">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Atak_05" ID="{C0C33507-1C98-4F6A-93E0-65D6823A324B}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Atak_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="728652291"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Atak_05" ID="{C0C33507-1C98-4F6A-93E0-65D6823A324B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Duch_Odkrycie" ID="{0C8190AF-1EE2-452B-A10B-2EDAD68D287A}" ShortID="256388670">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Odkrycie_Ducha_03_1" ID="{85F122C0-6A57-40EA-A015-9562FA657BD7}" ShortID="194574844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Odkrycie_Ducha_03_1" ID="{E5EC16CD-B8DA-4025-B2AA-B4080F3A34DE}">
+											<Language>SFX</Language>
+											<AudioFile>Odkrycie_Ducha_03.1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="315419339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Odkrycie_Ducha_03_1" ID="{E5EC16CD-B8DA-4025-B2AA-B4080F3A34DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Odkrycie_Ducha_03_2" ID="{B67D07AA-9EBF-4093-B96A-9610BBE2A3D2}" ShortID="362685307">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Odkrycie_Ducha_03_2" ID="{6826DC32-CD39-4B51-995E-78538A9C8956}">
+											<Language>SFX</Language>
+											<AudioFile>Odkrycie_Ducha_03.2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="585073203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Odkrycie_Ducha_03_2" ID="{6826DC32-CD39-4B51-995E-78538A9C8956}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Odkrycie_Ducha_03" ID="{00B2F464-EAA2-4BC3-A25D-787336D7FC6D}" ShortID="959398101">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Odkrycie_Ducha_03" ID="{5849D971-28DF-4752-82B0-88648B90B285}">
+											<Language>SFX</Language>
+											<AudioFile>Odkrycie_Ducha_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476720448"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Odkrycie_Ducha_03" ID="{5849D971-28DF-4752-82B0-88648B90B285}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Duch_Odmarzanie" ID="{3DC8F234-EA7B-4206-8486-DEAE545B7BF0}" ShortID="207332834">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Duch_Odmarzanie_03_1" ID="{C20CF224-DDEF-4A31-AD68-131CAEC460E9}" ShortID="589700632">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Odmarzanie_03_1" ID="{DCC87325-B598-4719-8E6F-7B8D1C2A22A8}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Odmarzanie_03.1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="228458807"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Odmarzanie_03_1" ID="{DCC87325-B598-4719-8E6F-7B8D1C2A22A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Odmarzanie_03_2" ID="{6EDB7B0E-ED23-4934-AF93-AADA44B53FA5}" ShortID="37928791">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Odmarzanie_03_2" ID="{7D2C6149-C75D-4FFB-8982-A4E9C1CB79AE}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Odmarzanie_03.2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1026436045"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Odmarzanie_03_2" ID="{7D2C6149-C75D-4FFB-8982-A4E9C1CB79AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Duch_Odmarzanie_03" ID="{FF6BA4F0-ACF3-41EC-83AE-C670E92CC2DD}" ShortID="616936004">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Odmarzanie_03" ID="{DF7DF8AA-5A42-4DD5-BA63-28364D1CA354}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Odmarzanie_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="146278858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Odmarzanie_03" ID="{DF7DF8AA-5A42-4DD5-BA63-28364D1CA354}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{4B0A384E-16A2-0697-DDAF-3E69E9EB7F73}",
+    "Hash": "{CD963316-34F2-5648-AFED-A0E6DA3F0D1C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -30,6 +30,30 @@
       "Location": "Memory",
       "ShortName": "Skeleton_Footsteps_05.wav",
       "CachePath": "SFX/Skeleton_Footsteps_05_10C4C929.wem"
+     },
+     {
+      "Id": "114916208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Atak_04.wav",
+      "CachePath": "SFX/Duch_Atak_04_10C4C929.wem"
+     },
+     {
+      "Id": "138750629",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Jest_Blisko_Skradanie_Nieodkrytego_04.wav",
+      "CachePath": "SFX/Duch_Jest_Blisko_Skradanie_Nieodkrytego_04_10C4C929.wem"
+     },
+     {
+      "Id": "146278858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Odmarzanie_03.wav",
+      "CachePath": "SFX/Duch_Odmarzanie_03_10C4C929.wem"
      },
      {
       "Id": "151112017",
@@ -56,12 +80,28 @@
       "CachePath": "SFX/Skeleton_Revolver_03_10C4C929.wem"
      },
      {
+      "Id": "185286278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Nieodkryty_Daleko_01.wav",
+      "CachePath": "SFX/Duch_Nieodkryty_Daleko_01_10C4C929.wem"
+     },
+     {
       "Id": "187481458",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Skeleton_Revolver_05.wav",
       "CachePath": "SFX/Skeleton_Revolver_05_10C4C929.wem"
+     },
+     {
+      "Id": "228458807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Odmarzanie_03.1.wav",
+      "CachePath": "SFX/Duch_Odmarzanie_03.1_10C4C929.wem"
      },
      {
       "Id": "233644923",
@@ -80,6 +120,30 @@
       "CachePath": "SFX/Footsteps_Cowboy_01_10C4C929.wem"
      },
      {
+      "Id": "241780859",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Defeat_02.wav",
+      "CachePath": "SFX/Duch_Defeat_02_10C4C929.wem"
+     },
+     {
+      "Id": "252099781",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Jest_Blisko_Skradanie_Nieodkrytego_01.wav",
+      "CachePath": "SFX/Duch_Jest_Blisko_Skradanie_Nieodkrytego_01_10C4C929.wem"
+     },
+     {
+      "Id": "264290010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Obrazenia_03.wav",
+      "CachePath": "SFX/Duch_Obrazenia_03_10C4C929.wem"
+     },
+     {
       "Id": "274989946",
       "Language": "SFX",
       "Streaming": "false",
@@ -96,12 +160,28 @@
       "CachePath": "SFX/Skeleton_Revolver_02_10C4C929.wem"
      },
      {
+      "Id": "298912863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Defeat_04.wav",
+      "CachePath": "SFX/Duch_Defeat_04_10C4C929.wem"
+     },
+     {
       "Id": "301788757",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Skeleton_Revolver_04.wav",
       "CachePath": "SFX/Skeleton_Revolver_04_10C4C929.wem"
+     },
+     {
+      "Id": "315419339",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Odkrycie_Ducha_03.1.wav",
+      "CachePath": "SFX/Odkrycie_Ducha_03.1_10C4C929.wem"
      },
      {
       "Id": "320682329",
@@ -144,6 +224,14 @@
       "CachePath": "SFX/Skeleton_Footsteps_06_10C4C929.wem"
      },
      {
+      "Id": "420330111",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Jest_Blisko_Skradanie_Nieodkrytego_02.wav",
+      "CachePath": "SFX/Duch_Jest_Blisko_Skradanie_Nieodkrytego_02_10C4C929.wem"
+     },
+     {
       "Id": "421962913",
       "Language": "SFX",
       "Streaming": "false",
@@ -176,6 +264,54 @@
       "CachePath": "SFX/Skeleton_Defeat_003_10C4C929.wem"
      },
      {
+      "Id": "476720448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Odkrycie_Ducha_03.wav",
+      "CachePath": "SFX/Odkrycie_Ducha_03_10C4C929.wem"
+     },
+     {
+      "Id": "485566382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Atak_03.wav",
+      "CachePath": "SFX/Duch_Atak_03_10C4C929.wem"
+     },
+     {
+      "Id": "544844802",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Obrazenia_01.wav",
+      "CachePath": "SFX/Duch_Obrazenia_01_10C4C929.wem"
+     },
+     {
+      "Id": "585073203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Odkrycie_Ducha_03.2.wav",
+      "CachePath": "SFX/Odkrycie_Ducha_03.2_10C4C929.wem"
+     },
+     {
+      "Id": "624990754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Defeat_06.wav",
+      "CachePath": "SFX/Duch_Defeat_06_10C4C929.wem"
+     },
+     {
+      "Id": "661055294",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Obrazenia_04.wav",
+      "CachePath": "SFX/Duch_Obrazenia_04_10C4C929.wem"
+     },
+     {
       "Id": "668333987",
       "Language": "SFX",
       "Streaming": "false",
@@ -192,12 +328,28 @@
       "CachePath": "SFX/Byk_Szarza_Z_Oddechem_02_10C4C929.wem"
      },
      {
+      "Id": "728652291",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Atak_05.wav",
+      "CachePath": "SFX/Duch_Atak_05_10C4C929.wem"
+     },
+     {
       "Id": "732880513",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Skeleton_Defeat_002.wav",
       "CachePath": "SFX/Skeleton_Defeat_002_10C4C929.wem"
+     },
+     {
+      "Id": "734436931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Obrazenia_02.wav",
+      "CachePath": "SFX/Duch_Obrazenia_02_10C4C929.wem"
      },
      {
       "Id": "789921876",
@@ -224,12 +376,28 @@
       "CachePath": "SFX/Ambient_Empty_Room_Em_01_D79FB2B7.wem"
      },
      {
+      "Id": "808156798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Atak_02.wav",
+      "CachePath": "SFX/Duch_Atak_02_10C4C929.wem"
+     },
+     {
       "Id": "825420739",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Revolver_Bohater_01.wav",
       "CachePath": "SFX/Revolver_Bohater_01_10C4C929.wem"
+     },
+     {
+      "Id": "825777639",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Jest_Blisko_Skradanie_Nieodkrytego_03.wav",
+      "CachePath": "SFX/Duch_Jest_Blisko_Skradanie_Nieodkrytego_03_10C4C929.wem"
      },
      {
       "Id": "866973072",
@@ -286,6 +454,22 @@
       "Location": "Memory",
       "ShortName": "Footsteps_Cowboy_02.wav",
       "CachePath": "SFX/Footsteps_Cowboy_02_10C4C929.wem"
+     },
+     {
+      "Id": "979629848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Atak_01.wav",
+      "CachePath": "SFX/Duch_Atak_01_10C4C929.wem"
+     },
+     {
+      "Id": "1026436045",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Duch_Odmarzanie_03.2.wav",
+      "CachePath": "SFX/Duch_Odmarzanie_03.2_10C4C929.wem"
      },
      {
       "Id": "1029818061",
@@ -391,6 +575,152 @@
        },
        {
         "Id": "970382954"
+       }
+      ]
+     },
+     {
+      "Id": "233780583",
+      "Name": "Duch_Atak",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Atak",
+      "GUID": "{D64F27D3-99CB-49F6-A06C-E882155595CC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6534694",
+      "DurationMax": "0.8847392",
+      "MediaRefs": [
+       {
+        "Id": "114916208"
+       },
+       {
+        "Id": "485566382"
+       },
+       {
+        "Id": "728652291"
+       },
+       {
+        "Id": "808156798"
+       },
+       {
+        "Id": "979629848"
+       }
+      ]
+     },
+     {
+      "Id": "3879760884",
+      "Name": "Duch_Blisko",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Blisko",
+      "GUID": "{33B6DE9F-C61D-4271-A7C1-7177E14CCCD8}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6562586",
+      "DurationMax": "3.6505668",
+      "MediaRefs": [
+       {
+        "Id": "138750629"
+       },
+       {
+        "Id": "252099781"
+       },
+       {
+        "Id": "420330111"
+       },
+       {
+        "Id": "825777639"
+       }
+      ]
+     },
+     {
+      "Id": "1166014346",
+      "Name": "Duch_Daleko",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Daleko",
+      "GUID": "{EF45B428-870D-45FB-9F5D-F0BD4ABC9B02}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.116417",
+      "DurationMax": "11.116417",
+      "MediaRefs": [
+       {
+        "Id": "185286278"
+       }
+      ]
+     },
+     {
+      "Id": "304274113",
+      "Name": "Duch_Defeat",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Defeat",
+      "GUID": "{C90D0198-19A0-489C-A114-5F5A7BDF98EB}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9651928",
+      "DurationMax": "3.0275965",
+      "MediaRefs": [
+       {
+        "Id": "241780859"
+       },
+       {
+        "Id": "298912863"
+       },
+       {
+        "Id": "624990754"
+       }
+      ]
+     },
+     {
+      "Id": "2374493969",
+      "Name": "Duch_Obrazenia",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Obrazenia",
+      "GUID": "{04168959-E214-4DB8-95E1-5A9E6AE77A11}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2639003",
+      "DurationMax": "1.7694558",
+      "MediaRefs": [
+       {
+        "Id": "264290010"
+       },
+       {
+        "Id": "544844802"
+       },
+       {
+        "Id": "661055294"
+       },
+       {
+        "Id": "734436931"
+       }
+      ]
+     },
+     {
+      "Id": "2181161180",
+      "Name": "Duch_Odkrycie",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Odkrycie",
+      "GUID": "{5D64604B-318A-44B5-8A1D-8AC29525E0A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1375057",
+      "DurationMax": "2.2750113",
+      "MediaRefs": [
+       {
+        "Id": "315419339"
+       },
+       {
+        "Id": "476720448"
+       },
+       {
+        "Id": "585073203"
+       }
+      ]
+     },
+     {
+      "Id": "1453207116",
+      "Name": "Duch_Odmarzanie",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Duch_Odmarzanie",
+      "GUID": "{C654B045-ACAA-4B29-B3B8-C85A3DE3D0CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3902948",
+      "DurationMax": "2.5277777",
+      "MediaRefs": [
+       {
+        "Id": "146278858"
+       },
+       {
+        "Id": "228458807"
+       },
+       {
+        "Id": "1026436045"
        }
       ]
      },
@@ -614,6 +944,6 @@
     ]
    }
   ],
-  "FileHash": "{DC23E490-D6B7-6978-57A0-0E47C7DD04D4}"
+  "FileHash": "{BB2C55C9-DAD1-47D1-3B1E-BDDC4A921974}"
  }
 }
