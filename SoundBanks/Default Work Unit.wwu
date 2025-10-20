@@ -15,6 +15,7 @@
 						<ObjectRef Name="Boss_Floating" ID="{5836F722-9714-436B-8117-EEEB21E1B3FB}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bohater_Shotgun" ID="{2075B705-DF75-45D2-860B-4017D4654007}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_States" ID="{1281B3F3-F67B-4602-8B10-D14C61239E8E}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{75C05AEB-0E6A-4804-A9FF-A2E6651227A6}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Skeleton_Defeat" ID="{8D48B589-B448-496D-84F3-6B38B02D61FF}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
@@ -22,8 +23,11 @@
 						<ObjectRef Name="Byk_Szarza" ID="{F81A3BA7-A377-4B7D-86EA-44E87F8D69CE}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DUCH" ID="{151F7702-541E-4C41-8F76-0EE8C0C19439}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bohater_Revolver" ID="{0933DB76-8366-4CC9-9961-E01F73652562}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Latarnia" ID="{BE92F122-35AA-4DC5-803F-1059D65F06EF}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Byk_Defeat" ID="{71ED74A5-CB3E-4DC7-A8D2-E900EDAB01D7}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Artbook" ID="{2F73B2D3-9691-4E1F-BE5F-1FA7D4B8D81B}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Cowboy" ID="{601611BB-9B6D-4E95-A894-03DDDBA94267}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Money" ID="{922EE903-A87B-4FB7-B43C-6F1453AEEF5A}" WorkUnitID="{77FC9EEB-8DB2-429E-A7A5-B8AFC905964C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

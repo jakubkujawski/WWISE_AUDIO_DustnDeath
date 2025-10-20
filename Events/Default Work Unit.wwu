@@ -133,6 +133,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PROPS" ID="{1C8D72FB-188F-44AF-9A10-B0500B16E1E1}" ShortID="163568951">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Barrel_Breakable" ID="{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}">
 							<ChildrenList>
@@ -145,6 +149,95 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Artbook" ID="{2F73B2D3-9691-4E1F-BE5F-1FA7D4B8D81B}">
+							<ChildrenList>
+								<Action Name="" ID="{083AF93F-52F2-48C1-A1CD-E2D3BB2B3508}" ShortID="766916351">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Artbook" ID="{B72A4FD4-4BCF-49BB-BA55-5744134C2888}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Latarnia" ID="{BE92F122-35AA-4DC5-803F-1059D65F06EF}" ShortID="888562459">
+							<ChildrenList>
+								<Event Name="Latarnia_Blysk" ID="{FCF70220-DAF8-4B59-868A-55CE80767476}">
+									<ChildrenList>
+										<Action Name="" ID="{80D8B973-CEB8-4002-8770-2C5D32791FF9}" ShortID="353906759">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Latarnia_Blysk_01" ID="{E2AF2D93-5EC7-4A45-9512-7AD881F1C667}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Latarnia_Ladowanie" ID="{CD1F6E8F-4E7F-4923-AE09-33A38D8C7243}">
+									<ChildrenList>
+										<Action Name="" ID="{FAFCB0CA-2207-4CC8-AA14-67C61E51F9E8}" ShortID="614466134">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Latarnia_Ladowanie_02" ID="{23CB147B-D426-4CAA-9325-B73BFA1232EC}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Latarnia_Skrzypienie" ID="{60FDE9B8-9ADD-4E1D-BE56-B8D0C31474F6}">
+									<ChildrenList>
+										<Action Name="" ID="{4AC2E2EC-427F-4FD4-8418-A53BD19C628B}" ShortID="1049775808">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Latarnia_Skrzypienie_03" ID="{1BA484B3-E4A3-4CD9-9AD6-938BE076613A}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Money" ID="{922EE903-A87B-4FB7-B43C-6F1453AEEF5A}" ShortID="276652106">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Money_Drop" ID="{C5D186CC-7E0C-49BF-9B02-F166CBB339F1}">
+									<ChildrenList>
+										<Action Name="" ID="{0AC0BB89-2AFB-4982-936A-E90791638036}" ShortID="200054254">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Money_Drop_01" ID="{59617909-1B02-4CB0-8379-8A02A7A6B03D}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Money_Wydawanie" ID="{A702C394-73E8-4613-A057-F510F7C9BC43}">
+									<ChildrenList>
+										<Action Name="" ID="{B2E258DB-6C6F-476D-92CF-D1B9D6070889}" ShortID="63720940">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Money_Wydawanie_03" ID="{E3F0995B-5EF8-4935-A86A-92F76B86CC4D}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Money_Zdobywanie" ID="{DF8A7B6B-EE46-4AC6-8715-31F513E4AB33}">
+									<ChildrenList>
+										<Action Name="" ID="{65CDB045-67EE-4179-BC97-A430812EC48A}" ShortID="976683788">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Money_Zdobywanie_01" ID="{D53D2D43-3B9A-4696-99F1-7E1468A5B461}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DUCH" ID="{151F7702-541E-4C41-8F76-0EE8C0C19439}" ShortID="858433936">
@@ -225,6 +318,47 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Duch_Odmarzanie" ID="{3DC8F234-EA7B-4206-8486-DEAE545B7BF0}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{75C05AEB-0E6A-4804-A9FF-A2E6651227A6}" ShortID="17223625">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Klick" ID="{50136209-ADD9-4625-9968-548026E27C72}">
+							<ChildrenList>
+								<Action Name="" ID="{85244467-B493-4BD7-94D9-F5E35FF80A2F}" ShortID="273268726">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Klick" ID="{64CF3C2C-08A0-4589-889F-2E7C635000A6}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Klick_Play" ID="{3C9D9889-7A4D-40E8-BC2D-E98344E4D858}">
+							<ChildrenList>
+								<Action Name="" ID="{6ADD22D2-9A06-40E9-95C9-C32C2ABE23F4}" ShortID="568889345">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Klik_Play_03" ID="{D22CED33-B0CD-4690-8A15-4DC5E951F9C2}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Najezdzanie" ID="{27E9C05C-9D40-400F-8387-9D40F563DEFA}">
+							<ChildrenList>
+								<Action Name="" ID="{070E9E92-0FA4-4660-A847-84405EE1AE08}" ShortID="272934553">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Najezdzanie_03" ID="{DF930012-8559-40EC-B2C0-7AF7EA1CCFF7}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -39,7 +39,7 @@
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{CD963316-34F2-5648-AFED-A0E6DA3F0D1C}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{FE1C8971-BBE6-BF34-A6C1-81D53D1907AD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -47,6 +47,10 @@
 				<File Id="19040402" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Cowboy_04.wav</ShortName>
 					<CachePath>SFX/Footsteps_Cowboy_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="26209547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Artbook_01.wav</ShortName>
+					<CachePath>SFX/Artbook_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="91713407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_05.wav</ShortName>
@@ -68,6 +72,10 @@
 					<ShortName>Breaking_Wooden_Barrel_04.wav</ShortName>
 					<CachePath>SFX/Breaking_Wooden_Barrel_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="165281373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Money_Wydawanie_03.wav</ShortName>
+					<CachePath>SFX/Money_Wydawanie_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="168197871" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_Floating_03.wav</ShortName>
 					<CachePath>SFX/Boss_Floating_03_4B13FC70.wem</CachePath>
@@ -76,6 +84,10 @@
 					<ShortName>Skeleton_Revolver_03.wav</ShortName>
 					<CachePath>SFX/Skeleton_Revolver_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="182642059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Latarnia_Ladowanie_02.wav</ShortName>
+					<CachePath>SFX/Latarnia_Ladowanie_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="185286278" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Duch_Nieodkryty_Daleko_01.wav</ShortName>
 					<CachePath>SFX/Duch_Nieodkryty_Daleko_01_10C4C929.wem</CachePath>
@@ -83,6 +95,10 @@
 				<File Id="187481458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Revolver_05.wav</ShortName>
 					<CachePath>SFX/Skeleton_Revolver_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="212723632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Najezdzanie_03.wav</ShortName>
+					<CachePath>SFX/Najezdzanie_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="228458807" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Duch_Odmarzanie_03.1.wav</ShortName>
@@ -144,6 +160,14 @@
 					<ShortName>Breaking_Wooden_Barrel_02.wav</ShortName>
 					<CachePath>SFX/Breaking_Wooden_Barrel_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="340182055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Klik_Play_03.wav</ShortName>
+					<CachePath>SFX/Klik_Play_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="388648051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Klik_05.wav</ShortName>
+					<CachePath>SFX/Klik_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="419600914" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_06.wav</ShortName>
 					<CachePath>SFX/Skeleton_Footsteps_06_10C4C929.wem</CachePath>
@@ -180,9 +204,17 @@
 					<ShortName>Duch_Obrazenia_01.wav</ShortName>
 					<CachePath>SFX/Duch_Obrazenia_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="559544745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Money_Drop_01.wav</ShortName>
+					<CachePath>SFX/Money_Drop_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="585073203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Odkrycie_Ducha_03.2.wav</ShortName>
 					<CachePath>SFX/Odkrycie_Ducha_03.2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="595309439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Money_Zdobywanie_01.wav</ShortName>
+					<CachePath>SFX/Money_Zdobywanie_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="624990754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Duch_Defeat_06.wav</ShortName>
@@ -228,6 +260,14 @@
 					<ShortName>Duch_Atak_02.wav</ShortName>
 					<CachePath>SFX/Duch_Atak_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="816045495" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Artbook_02.wav</ShortName>
+					<CachePath>SFX/Artbook_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="825066969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Artbook_04.wav</ShortName>
+					<CachePath>SFX/Artbook_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="825420739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Revolver_Bohater_01.wav</ShortName>
 					<CachePath>SFX/Revolver_Bohater_01_10C4C929.wem</CachePath>
@@ -235,6 +275,10 @@
 				<File Id="825777639" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Duch_Jest_Blisko_Skradanie_Nieodkrytego_03.wav</ShortName>
 					<CachePath>SFX/Duch_Jest_Blisko_Skradanie_Nieodkrytego_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="837435580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Artbook_03.wav</ShortName>
+					<CachePath>SFX/Artbook_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="866973072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skeleton_Footsteps_03.wav</ShortName>
@@ -276,8 +320,28 @@
 					<ShortName>Skeleton_Footsteps_01.wav</ShortName>
 					<CachePath>SFX/Skeleton_Footsteps_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1035322809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Latarnia_Skrzypienie_03.wav</ShortName>
+					<CachePath>SFX/Latarnia_Skrzypienie_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042175354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Latarnia_Blysk_01.wav</ShortName>
+					<CachePath>SFX/Latarnia_Blysk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1043395780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Klik_04.wav</ShortName>
+					<CachePath>SFX/Klik_04_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3023215539" Name="Artbook" ObjectPath="\Events\Default Work Unit\PROPS\Artbook" GUID="{2F73B2D3-9691-4E1F-BE5F-1FA7D4B8D81B}" DurationType="OneShot" DurationMin="0.5937642" DurationMax="1.0937642">
+					<MediaRefs>
+						<MediaRef Id="26209547"/>
+						<MediaRef Id="816045495"/>
+						<MediaRef Id="825066969"/>
+						<MediaRef Id="837435580"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1865588041" Name="Barrel_Breakable" ObjectPath="\Events\Default Work Unit\PROPS\Barrel_Breakable" GUID="{E9DD7CDD-4A5A-4AF2-97BB-AF183A9CB90D}" DurationType="OneShot" DurationMin="2.2630386" DurationMax="2.7333786">
 					<MediaRefs>
 						<MediaRef Id="151112017"/>
@@ -383,6 +447,47 @@
 						<MediaRef Id="1029818061"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="121357283" Name="Klick" ObjectPath="\Events\Default Work Unit\UI\Klick" GUID="{50136209-ADD9-4625-9968-548026E27C72}" DurationType="OneShot" DurationMin="0.26235828" DurationMax="0.31482995">
+					<MediaRefs>
+						<MediaRef Id="388648051"/>
+						<MediaRef Id="1043395780"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1728112820" Name="Klick_Play" ObjectPath="\Events\Default Work Unit\UI\Klick_Play" GUID="{3C9D9889-7A4D-40E8-BC2D-E98344E4D858}" DurationType="OneShot" DurationMin="2.042653" DurationMax="2.042653">
+					<MediaRefs>
+						<MediaRef Id="340182055"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2590602363" Name="Latarnia_Blysk" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Blysk" GUID="{FCF70220-DAF8-4B59-868A-55CE80767476}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="1042175354"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="268474196" Name="Latarnia_Ladowanie" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Ladowanie" GUID="{CD1F6E8F-4E7F-4923-AE09-33A38D8C7243}" DurationType="OneShot" DurationMin="7" DurationMax="7">
+					<MediaRefs>
+						<MediaRef Id="182642059"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2654533227" Name="Latarnia_Skrzypienie" ObjectPath="\Events\Default Work Unit\PROPS\Latarnia\Latarnia_Skrzypienie" GUID="{60FDE9B8-9ADD-4E1D-BE56-B8D0C31474F6}" DurationType="OneShot" DurationMin="2.5142858" DurationMax="2.5142858">
+					<MediaRefs>
+						<MediaRef Id="1035322809"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2036585953" Name="Money_Drop" ObjectPath="\Events\Default Work Unit\PROPS\Money\Money_Drop" GUID="{C5D186CC-7E0C-49BF-9B02-F166CBB339F1}" DurationType="OneShot" DurationMin="0.53126985" DurationMax="0.53126985">
+					<MediaRefs>
+						<MediaRef Id="559544745"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1931816509" Name="Money_Wydawanie" ObjectPath="\Events\Default Work Unit\PROPS\Money\Money_Wydawanie" GUID="{A702C394-73E8-4613-A057-F510F7C9BC43}" DurationType="OneShot" DurationMin="0.8750113" DurationMax="0.8750113">
+					<MediaRefs>
+						<MediaRef Id="165281373"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4090646916" Name="Money_Zdobywanie" ObjectPath="\Events\Default Work Unit\PROPS\Money\Money_Zdobywanie" GUID="{DF8A7B6B-EE46-4AC6-8715-31F513E4AB33}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="595309439"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1690668539" Name="Music_States" ObjectPath="\Events\Default Work Unit\Music_States" GUID="{1281B3F3-F67B-4602-8B10-D14C61239E8E}" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -410,6 +515,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="1401821816" Name="Najezdzanie" ObjectPath="\Events\Default Work Unit\UI\Najezdzanie" GUID="{27E9C05C-9D40-400F-8387-9D40F563DEFA}" DurationType="OneShot" DurationMin="0.41975057" DurationMax="0.41975057">
+					<MediaRefs>
+						<MediaRef Id="212723632"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" DurationType="Infinite">
 					<MediaRefs>
@@ -447,5 +557,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92A45ED1-E34C-B6E1-B755-AB1368BA561D}</FileHash>
+	<FileHash>{1C5836C5-20FE-D240-FAC5-57602B1609BC}</FileHash>
 </SoundBanksInfo>

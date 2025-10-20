@@ -812,6 +812,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PROPS" ID="{DA81437F-0B2F-4D3D-B8D4-1F110A6DBC26}" ShortID="962206540">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Barrel_Breakable" ID="{E4057C8E-EEB4-4320-82E4-B069EE52FEF9}" ShortID="807478354">
 							<ReferenceList>
@@ -869,6 +873,250 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Artbook" ID="{B72A4FD4-4BCF-49BB-BA55-5744134C2888}" ShortID="1030816308">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Artbook_01" ID="{737D0F2A-4B84-4518-9836-D9E1838300E7}" ShortID="392583419">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Artbook_01" ID="{FAA9CD30-82D2-41F9-B253-2562CDAA50A3}">
+											<Language>SFX</Language>
+											<AudioFile>Artbook_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="26209547"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Artbook_01" ID="{FAA9CD30-82D2-41F9-B253-2562CDAA50A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Artbook_02" ID="{3F2784F7-EFCA-4F0C-BA46-1D0175F224BA}" ShortID="418423383">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Artbook_02" ID="{0F0DFC74-532A-4ADC-BA9F-DEB0985A3CF1}">
+											<Language>SFX</Language>
+											<AudioFile>Artbook_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816045495"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Artbook_02" ID="{0F0DFC74-532A-4ADC-BA9F-DEB0985A3CF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Artbook_03" ID="{70F720FB-1CC6-4AFF-81C8-9CDE9E3CA1FD}" ShortID="1001813636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Artbook_03" ID="{6F2D9DE8-3E10-4655-A4B1-CF2D7B6A22F1}">
+											<Language>SFX</Language>
+											<AudioFile>Artbook_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="837435580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Artbook_03" ID="{6F2D9DE8-3E10-4655-A4B1-CF2D7B6A22F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Artbook_04" ID="{31B52A06-A1D5-43CB-9FFE-5FFDD2D469E3}" ShortID="586565622">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Artbook_04" ID="{5E8F3A36-2E33-4256-B443-F50287D1452D}">
+											<Language>SFX</Language>
+											<AudioFile>Artbook_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="825066969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Artbook_04" ID="{5E8F3A36-2E33-4256-B443-F50287D1452D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Folder Name="Latarnia" ID="{6195678F-0943-45D1-97E4-527C5BB4676B}" ShortID="432974189">
+							<ChildrenList>
+								<Sound Name="Latarnia_Blysk_01" ID="{E2AF2D93-5EC7-4A45-9512-7AD881F1C667}" ShortID="141127885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Latarnia_Blysk_01" ID="{2D7FEA69-AC12-4CF9-A7A7-193D8DF7C8BB}">
+											<Language>SFX</Language>
+											<AudioFile>Latarnia_Blysk_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042175354"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Latarnia_Blysk_01" ID="{2D7FEA69-AC12-4CF9-A7A7-193D8DF7C8BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Latarnia_Ladowanie_02" ID="{23CB147B-D426-4CAA-9325-B73BFA1232EC}" ShortID="851158200">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Latarnia_Ladowanie_02" ID="{14325C77-3D3D-4354-B7E8-C12BA790ED9E}">
+											<Language>SFX</Language>
+											<AudioFile>Latarnia_Ladowanie_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="182642059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Latarnia_Ladowanie_02" ID="{14325C77-3D3D-4354-B7E8-C12BA790ED9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Latarnia_Skrzypienie_03" ID="{1BA484B3-E4A3-4CD9-9AD6-938BE076613A}" ShortID="221679233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Latarnia_Skrzypienie_03" ID="{01D5DE8E-6ED7-4DB5-99FD-245AEF093438}">
+											<Language>SFX</Language>
+											<AudioFile>Latarnia_Skrzypienie_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035322809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Latarnia_Skrzypienie_03" ID="{01D5DE8E-6ED7-4DB5-99FD-245AEF093438}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Money" ID="{2AA54C4B-2A53-4CB0-BD1D-8334D37E5D96}" ShortID="618204432">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="Money_Drop_01" ID="{59617909-1B02-4CB0-8379-8A02A7A6B03D}" ShortID="853998541">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Money_Drop_01" ID="{1AA1C08D-3333-48A6-B2A2-B7E868AB56CE}">
+											<Language>SFX</Language>
+											<AudioFile>Money_Drop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="559544745"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Money_Drop_01" ID="{1AA1C08D-3333-48A6-B2A2-B7E868AB56CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Money_Wydawanie_03" ID="{E3F0995B-5EF8-4935-A86A-92F76B86CC4D}" ShortID="636932360">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Money_Wydawanie_03" ID="{7FEAC567-E871-447A-9693-A35B4A582608}">
+											<Language>SFX</Language>
+											<AudioFile>Money_Wydawanie_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165281373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Money_Wydawanie_03" ID="{7FEAC567-E871-447A-9693-A35B4A582608}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Money_Zdobywanie_01" ID="{D53D2D43-3B9A-4696-99F1-7E1468A5B461}" ShortID="270692680">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Money_Zdobywanie_01" ID="{9B33674C-CAC3-4F80-9235-8C87125402C4}">
+											<Language>SFX</Language>
+											<AudioFile>Money_Zdobywanie_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="595309439"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Money_Zdobywanie_01" ID="{9B33674C-CAC3-4F80-9235-8C87125402C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SZKIELET" ID="{DEC8C26B-B2BB-49AF-BD85-0725E5C352A6}" ShortID="339705383"/>
@@ -1456,6 +1704,114 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{10FDCF2C-B8F2-461E-A856-96391135B26C}" ShortID="802932077">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Klick" ID="{64CF3C2C-08A0-4589-889F-2E7C635000A6}" ShortID="450085324">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Klik_04" ID="{853EF034-C9E7-480B-B063-4F3F5594D39D}" ShortID="524465670">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Klik_04" ID="{505112F5-770A-4E39-AE10-C6162558B01A}">
+											<Language>SFX</Language>
+											<AudioFile>Klik_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1043395780"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Klik_04" ID="{505112F5-770A-4E39-AE10-C6162558B01A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Klik_05" ID="{9B64F616-7849-479E-B563-EF20760B957C}" ShortID="605490529">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Klik_05" ID="{97B3D468-1A32-471C-99AD-06ABDFD0CF81}">
+											<Language>SFX</Language>
+											<AudioFile>Klik_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="388648051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Klik_05" ID="{97B3D468-1A32-471C-99AD-06ABDFD0CF81}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Klik_Play_03" ID="{D22CED33-B0CD-4690-8A15-4DC5E951F9C2}" ShortID="816709629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Klik_Play_03" ID="{6AD74A00-72F2-4AEE-8DF9-6C9C60016181}">
+									<Language>SFX</Language>
+									<AudioFile>Klik_Play_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="340182055"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Klik_Play_03" ID="{6AD74A00-72F2-4AEE-8DF9-6C9C60016181}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Najezdzanie_03" ID="{DF930012-8559-40EC-B2C0-7AF7EA1CCFF7}" ShortID="26399680">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Najezdzanie_03" ID="{FF1610AB-5B31-4A7D-9C64-7A01B928A9E9}">
+									<Language>SFX</Language>
+									<AudioFile>Najezdzanie_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="212723632"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Najezdzanie_03" ID="{FF1610AB-5B31-4A7D-9C64-7A01B928A9E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
