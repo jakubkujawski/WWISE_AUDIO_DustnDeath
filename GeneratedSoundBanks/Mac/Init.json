@@ -81,9 +81,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "505782772",
+      "Name": "Duch_Dystans",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans",
+      "GUID": "{BF99C857-51D7-4C95-A072-FD61B5BFE263}",
+      "Switches": [
+       {
+        "Id": "563324711",
+        "Name": "Daleko",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans\\Daleko",
+        "GUID": "{33A11CDA-886E-487F-87DC-ABF79D7147E8}"
+       },
+       {
+        "Id": "2102364433",
+        "Name": "Blisko",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans\\Blisko",
+        "GUID": "{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{FDCE010D-3D65-7DBE-6B2C-0B09853074CF}"
+  "FileHash": "{61F47112-742E-69B9-B86E-19B60C7E9CFA}"
  }
 }

@@ -323,6 +323,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Duch_Dystans" ID="{248D0890-1942-4DB2-800E-AC4F07852044}">
+							<ChildrenList>
+								<Action Name="" ID="{8972ECDE-6153-45BC-A5F7-158E50402CC9}" ShortID="428389744">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Duch_Dystans" ID="{88DB8BAA-29EA-463F-B07A-443AE2107DB7}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{75C05AEB-0E6A-4804-A9FF-A2E6651227A6}" ShortID="17223625">

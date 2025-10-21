@@ -33,13 +33,21 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="505782772" Name="Duch_Dystans" ObjectPath="\Switches\Default Work Unit\Duch_Dystans" GUID="{BF99C857-51D7-4C95-A072-FD61B5BFE263}">
+					<Switches>
+						<Switch Id="563324711" Name="Daleko" ObjectPath="\Switches\Default Work Unit\Duch_Dystans\Daleko" GUID="{33A11CDA-886E-487F-87DC-ABF79D7147E8}"/>
+						<Switch Id="2102364433" Name="Blisko" ObjectPath="\Switches\Default Work Unit\Duch_Dystans\Blisko" GUID="{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2228651116" Type="User" GUID="{D95B13FD-4B23-4D0D-BDCF-C60776C3A5AA}" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_SoundBank</ObjectPath>
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{B6D874B3-9EBA-B634-CC7C-788D29C87373}">
+		<SoundBank Id="2641024368" Type="User" GUID="{756BA574-2B83-4C19-BC52-6125C8FA6403}" Language="SFX" Hash="{53467DB6-7623-46D2-DB17-34EA0A254BA1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX_SoundBank</ObjectPath>
 			<ShortName>SFX_SoundBank</ShortName>
 			<Path>SFX_SoundBank.bnk</Path>
@@ -86,7 +94,7 @@
 				</File>
 				<File Id="182642059" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Latarnia_Ladowanie_02.wav</ShortName>
-					<CachePath>SFX/Latarnia_Ladowanie_02_C2EF47B5.wem</CachePath>
+					<CachePath>SFX/Latarnia_Ladowanie_02_08FFD5BE.wem</CachePath>
 				</File>
 				<File Id="185286278" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Duch_Nieodkryty_Daleko_01.wav</ShortName>
@@ -521,6 +529,25 @@
 						<MediaRef Id="212723632"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1515647127" Name="Play_Duch_Dystans" ObjectPath="\Events\Default Work Unit\DUCH\Play_Duch_Dystans" GUID="{248D0890-1942-4DB2-800E-AC4F07852044}" DurationType="OneShot" DurationMin="2.6562586" DurationMax="11.116417">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="505782772" Id="2102364433" GUID="{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"/>
+							<MediaRefs>
+								<MediaRef Id="138750629"/>
+								<MediaRef Id="252099781"/>
+								<MediaRef Id="420330111"/>
+								<MediaRef Id="825777639"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="505782772" Id="563324711" GUID="{33A11CDA-886E-487F-87DC-ABF79D7147E8}"/>
+							<MediaRefs>
+								<MediaRef Id="185286278"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{20E2F126-DDEA-484E-A2D7-2C9FC69584A4}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="442075739"/>
@@ -555,7 +582,15 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="505782772" Name="Duch_Dystans" ObjectPath="\Switches\Default Work Unit\Duch_Dystans" GUID="{BF99C857-51D7-4C95-A072-FD61B5BFE263}">
+					<Switches>
+						<Switch Id="563324711" Name="Daleko" ObjectPath="\Switches\Default Work Unit\Duch_Dystans\Daleko" GUID="{33A11CDA-886E-487F-87DC-ABF79D7147E8}"/>
+						<Switch Id="2102364433" Name="Blisko" ObjectPath="\Switches\Default Work Unit\Duch_Dystans\Blisko" GUID="{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5E838FCB-1D7D-7A91-5F8D-0E2D7E5F25EF}</FileHash>
+	<FileHash>{B8C9A194-43AA-BE40-F78F-917AEFC49A36}</FileHash>
 </SoundBanksInfo>

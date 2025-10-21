@@ -25,7 +25,15 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="505782772" Name="Duch_Dystans" ObjectPath="\Switches\Default Work Unit\Duch_Dystans" GUID="{BF99C857-51D7-4C95-A072-FD61B5BFE263}">
+					<Switches>
+						<Switch Id="563324711" Name="Daleko" ObjectPath="\Switches\Default Work Unit\Duch_Dystans\Daleko" GUID="{33A11CDA-886E-487F-87DC-ABF79D7147E8}"/>
+						<Switch Id="2102364433" Name="Blisko" ObjectPath="\Switches\Default Work Unit\Duch_Dystans\Blisko" GUID="{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6C43F633-3105-CE10-509C-86C6CB54DE96}</FileHash>
+	<FileHash>{776099A1-B4D5-AF72-D51D-E1857659633D}</FileHash>
 </SoundBanksInfo>

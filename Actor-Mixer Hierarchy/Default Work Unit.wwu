@@ -1295,106 +1295,6 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Skradanie_Nieodkrytego_Ducha" ID="{0696DA90-0CE5-46E3-9FCB-A56326EB118C}" ShortID="911865912">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{322040D7-EABE-47C7-8DA1-8DC9A9A7BF59}" ShortID="722122923">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{2D830254-A569-4D86-9A5E-6728FB4CAF60}">
-											<Language>SFX</Language>
-											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="252099781"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{2D830254-A569-4D86-9A5E-6728FB4CAF60}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{BC3D61AF-5F43-46D1-A3F4-7BF96E39C7E8}" ShortID="714032150">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{5A78AB10-B9AF-4938-8155-A5852114E290}">
-											<Language>SFX</Language>
-											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="420330111"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{5A78AB10-B9AF-4938-8155-A5852114E290}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{B9321936-D787-444B-8C47-C1404EA3851D}" ShortID="331023905">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{C7194CFA-8475-4A9E-836B-F4FE4F6689FA}">
-											<Language>SFX</Language>
-											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="825777639"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{C7194CFA-8475-4A9E-836B-F4FE4F6689FA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{66969B46-8837-431B-BB72-02696AE64B69}" ShortID="40801193">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{F96D9E1F-D101-45C0-9FE4-10DC54BC3923}">
-											<Language>SFX</Language>
-											<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="138750629"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{F96D9E1F-D101-45C0-9FE4-10DC54BC3923}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Duch_Defeat" ID="{AB09883C-E6F1-4516-A880-422DAB79CEA1}" ShortID="227889767">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
@@ -1603,28 +1503,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name="Duch_Daleko" ID="{1E98E53A-67D2-44BA-BB7E-624043B5D001}" ShortID="645027959">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Duch_Nieodkryty_Daleko_01" ID="{CB9667EE-2FDE-4BF3-AE9B-3E75EA18A44B}">
-									<Language>SFX</Language>
-									<AudioFile>Duch_Nieodkryty_Daleko_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="185286278"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Duch_Nieodkryty_Daleko_01" ID="{CB9667EE-2FDE-4BF3-AE9B-3E75EA18A44B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<RandomSequenceContainer Name="Duch_Atak" ID="{08C7C968-8BFB-49DE-9BEA-2FBDB99229E6}" ShortID="1018319226">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
@@ -1945,6 +1823,174 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<SwitchContainer Name="Duch_Dystans" ID="{88DB8BAA-29EA-463F-B07A-443AE2107DB7}" ShortID="899006527">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Duch_Dystans" ID="{BF99C857-51D7-4C95-A072-FD61B5BFE263}" WorkUnitID="{9430EE76-3CE6-478E-BF57-E378941D8929}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Skradanie_Nieodkrytego_Ducha" ID="{0696DA90-0CE5-46E3-9FCB-A56326EB118C}" ShortID="911865912">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{322040D7-EABE-47C7-8DA1-8DC9A9A7BF59}" ShortID="722122923">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{2D830254-A569-4D86-9A5E-6728FB4CAF60}">
+													<Language>SFX</Language>
+													<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="252099781"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_01" ID="{2D830254-A569-4D86-9A5E-6728FB4CAF60}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{BC3D61AF-5F43-46D1-A3F4-7BF96E39C7E8}" ShortID="714032150">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{5A78AB10-B9AF-4938-8155-A5852114E290}">
+													<Language>SFX</Language>
+													<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="420330111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_02" ID="{5A78AB10-B9AF-4938-8155-A5852114E290}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{B9321936-D787-444B-8C47-C1404EA3851D}" ShortID="331023905">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{C7194CFA-8475-4A9E-836B-F4FE4F6689FA}">
+													<Language>SFX</Language>
+													<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="825777639"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_03" ID="{C7194CFA-8475-4A9E-836B-F4FE4F6689FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{66969B46-8837-431B-BB72-02696AE64B69}" ShortID="40801193">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{F96D9E1F-D101-45C0-9FE4-10DC54BC3923}">
+													<Language>SFX</Language>
+													<AudioFile>Duch_Jest_Blisko_Skradanie_Nieodkrytego_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="138750629"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Duch_Jest_Blisko_Skradanie_Nieodkrytego_04" ID="{F96D9E1F-D101-45C0-9FE4-10DC54BC3923}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Duch_Daleko" ID="{1E98E53A-67D2-44BA-BB7E-624043B5D001}" ShortID="645027959">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Duch_Nieodkryty_Daleko_01" ID="{CB9667EE-2FDE-4BF3-AE9B-3E75EA18A44B}">
+											<Language>SFX</Language>
+											<AudioFile>Duch_Nieodkryty_Daleko_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="185286278"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Duch_Nieodkryty_Daleko_01" ID="{CB9667EE-2FDE-4BF3-AE9B-3E75EA18A44B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Duch_Daleko" ID="{1E98E53A-67D2-44BA-BB7E-624043B5D001}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Skradanie_Nieodkrytego_Ducha" ID="{0696DA90-0CE5-46E3-9FCB-A56326EB118C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Blisko" ID="{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"/>
+										<ItemList>
+											<ItemRef Name="Skradanie_Nieodkrytego_Ducha" ID="{0696DA90-0CE5-46E3-9FCB-A56326EB118C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Daleko" ID="{33A11CDA-886E-487F-87DC-ABF79D7147E8}"/>
+										<ItemList>
+											<ItemRef Name="Duch_Daleko" ID="{1E98E53A-67D2-44BA-BB7E-624043B5D001}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{10FDCF2C-B8F2-461E-A856-96391135B26C}" ShortID="802932077">

@@ -89,6 +89,28 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "505782772",
+      "Name": "Duch_Dystans",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans",
+      "GUID": "{BF99C857-51D7-4C95-A072-FD61B5BFE263}",
+      "Switches": [
+       {
+        "Id": "563324711",
+        "Name": "Daleko",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans\\Daleko",
+        "GUID": "{33A11CDA-886E-487F-87DC-ABF79D7147E8}"
+       },
+       {
+        "Id": "2102364433",
+        "Name": "Blisko",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans\\Blisko",
+        "GUID": "{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -106,7 +128,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{B6D874B3-9EBA-B634-CC7C-788D29C87373}",
+    "Hash": "{53467DB6-7623-46D2-DB17-34EA0A254BA1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -197,7 +219,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Latarnia_Ladowanie_02.wav",
-      "CachePath": "SFX/Latarnia_Ladowanie_02_C2EF47B5.wem"
+      "CachePath": "SFX/Latarnia_Ladowanie_02_08FFD5BE.wem"
      },
      {
       "Id": "185286278",
@@ -1201,6 +1223,52 @@
       ]
      },
      {
+      "Id": "1515647127",
+      "Name": "Play_Duch_Dystans",
+      "ObjectPath": "\\Events\\Default Work Unit\\DUCH\\Play_Duch_Dystans",
+      "GUID": "{248D0890-1942-4DB2-800E-AC4F07852044}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6562586",
+      "DurationMax": "11.116417",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "505782772",
+         "Id": "2102364433",
+         "GUID": "{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "138750629"
+         },
+         {
+          "Id": "252099781"
+         },
+         {
+          "Id": "420330111"
+         },
+         {
+          "Id": "825777639"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "505782772",
+         "Id": "563324711",
+         "GUID": "{33A11CDA-886E-487F-87DC-ABF79D7147E8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "185286278"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "2932040671",
       "Name": "Play_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
@@ -1301,9 +1369,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "505782772",
+      "Name": "Duch_Dystans",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans",
+      "GUID": "{BF99C857-51D7-4C95-A072-FD61B5BFE263}",
+      "Switches": [
+       {
+        "Id": "563324711",
+        "Name": "Daleko",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans\\Daleko",
+        "GUID": "{33A11CDA-886E-487F-87DC-ABF79D7147E8}"
+       },
+       {
+        "Id": "2102364433",
+        "Name": "Blisko",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Duch_Dystans\\Blisko",
+        "GUID": "{B1D5A697-9FC0-4789-A2FA-BC48787845D4}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{2B28669F-A5CB-BCA1-8347-232A6761DA31}"
+  "FileHash": "{58E93D34-08BD-CBF6-9EEB-AD3DB1E26305}"
  }
 }
