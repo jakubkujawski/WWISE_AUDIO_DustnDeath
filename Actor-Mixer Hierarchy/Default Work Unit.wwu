@@ -185,6 +185,33 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Boss_Bumerang_03" ID="{5EBB0E26-29F2-4664-B8D7-E70F57E1341F}" ShortID="619085507">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_Bumerang_03" ID="{A449BF9F-81BB-4085-AE4E-FC41001057C8}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0455591467356173"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Boss_Bumerang_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="836200568"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_Bumerang_03" ID="{A449BF9F-81BB-4085-AE4E-FC41001057C8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Skeleton" ID="{4F3F5A04-0DFA-423F-9F55-51976F607F00}" ShortID="1031787618">
@@ -922,6 +949,28 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Zmiana_Broni_Bohater_01" ID="{D065582D-8DAE-4A11-8156-6843F0CCC385}" ShortID="602728884">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Zmiana_Broni_Bohater_01" ID="{FBFA2DEA-6A00-4208-9BDB-033FAED38ABE}">
+									<Language>SFX</Language>
+									<AudioFile>Zmiana_Broni_Bohater_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="430274681"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Zmiana_Broni_Bohater_01" ID="{FBFA2DEA-6A00-4208-9BDB-033FAED38ABE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PROPS" ID="{DA81437F-0B2F-4D3D-B8D4-1F110A6DBC26}" ShortID="962206540">
@@ -2123,6 +2172,39 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Najezdzanie_03" ID="{FF1610AB-5B31-4A7D-9C64-7A01B928A9E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="KUKLA" ID="{FD62C7A5-7E3E-4F14-9AE1-B1A97FA37078}" ShortID="367417073">
+					<ChildrenList>
+						<Sound Name="Kukla_03" ID="{77CBD117-919E-4B5D-9002-BB853B7CAD42}" ShortID="34895320">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA24E14-55CB-4A90-91F9-1C27AEEDB2F6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A731320-17B9-4120-BD98-17411C7C4FCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Kukla_03" ID="{09C5E57E-0FC3-4FF3-93F7-B1613ACA0043}">
+									<Language>SFX</Language>
+									<AudioFile>Kukla_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="608318703"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Kukla_03" ID="{09C5E57E-0FC3-4FF3-93F7-B1613ACA0043}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

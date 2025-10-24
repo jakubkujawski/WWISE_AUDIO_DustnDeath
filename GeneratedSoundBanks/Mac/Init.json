@@ -68,6 +68,12 @@
         "GUID": "{54379189-9603-45F0-92D3-7732AB52B0F0}"
        },
        {
+        "Id": "1516714793",
+        "Name": "Boss_Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Boss_Combat",
+        "GUID": "{0D6D005D-AB91-4F2F-888D-A71F03B8B74A}"
+       },
+       {
         "Id": "2607556080",
         "Name": "Menu",
         "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu",
@@ -106,6 +112,6 @@
     ]
    }
   ],
-  "FileHash": "{61F47112-742E-69B9-B86E-19B60C7E9CFA}"
+  "FileHash": "{DFBA4A13-7819-248D-F477-EBA33FBE9276}"
  }
 }

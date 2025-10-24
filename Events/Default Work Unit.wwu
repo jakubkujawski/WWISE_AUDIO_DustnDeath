@@ -36,29 +36,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Skeleton_Defeat" ID="{8D48B589-B448-496D-84F3-6B38B02D61FF}">
-					<ChildrenList>
-						<Action Name="" ID="{342349A6-B538-4F83-98A3-E82054E0D82A}" ShortID="363388752">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Skeleton_Defeat" ID="{AB50A73B-7312-42F2-B197-125E54934D29}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Music_States" ID="{1281B3F3-F67B-4602-8B10-D14C61239E8E}">
-					<ChildrenList>
-						<Action Name="" ID="{90DB2CCC-D32A-4D9B-9FDB-40736AB71A49}" ShortID="448958641">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music 2" ID="{2F5F5843-5F7B-42F9-95F6-CA47FC8D3E20}" WorkUnitID="{96215092-6FF7-4CD1-82AA-391602339AA4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="BYK (BOSS)" ID="{739DE442-E1C0-4FFB-8FA2-BC77235D17CB}" ShortID="838243912">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Boss_Floating" ID="{5836F722-9714-436B-8117-EEEB21E1B3FB}">
 							<ChildrenList>
@@ -93,19 +75,19 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Boss_Bumerang" ID="{94B5E1C5-7D45-4186-A6A3-8E3112D8A392}">
+							<ChildrenList>
+								<Action Name="" ID="{C4A2C705-6855-4445-827F-3AC01288E0B8}" ShortID="346605821">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Bumerang_03" ID="{5EBB0E26-29F2-4664-B8D7-E70F57E1341F}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Skeleton_Revolver" ID="{541781B4-4471-40D2-9B89-7C114803B82E}">
-					<ChildrenList>
-						<Action Name="" ID="{0E1663E5-8944-4CDB-AD1D-09899B3060BD}" ShortID="888741997">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Skeleton_Revolver" ID="{4E0E78BA-EF79-4E92-991C-A37F3CB6E484}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="BOHATER" ID="{1DA1B5CA-9BA7-41DF-923D-B16630DF7634}" ShortID="677124458">
 					<ChildrenList>
 						<Event Name="Bohater_Revolver" ID="{0933DB76-8366-4CC9-9961-E01F73652562}">
@@ -125,6 +107,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Bohater_Shotgun" ID="{E657B61F-DC38-47CB-BFAC-9E521F986271}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bohater_Zmiana_Broni" ID="{9EFDF881-4581-4140-9CAB-EC67604CC95C}">
+							<ChildrenList>
+								<Action Name="" ID="{CE47FEFB-54CA-49D1-84CE-66B0C6B00F21}" ShortID="954332137">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zmiana_Broni_Bohater_01" ID="{D065582D-8DAE-4A11-8156-6843F0CCC385}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -377,6 +370,62 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="KUKLA" ID="{2450A181-FD7B-4509-9B88-29C1FF2C1738}" ShortID="864831364">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Kukla" ID="{4FF9ED6E-6256-48FD-93AC-04F2B6A64EB9}">
+							<ChildrenList>
+								<Action Name="" ID="{26AF92ED-644B-4DEB-825E-44966F3F7CDD}" ShortID="730198095">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kukla_03" ID="{77CBD117-919E-4B5D-9002-BB853B7CAD42}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SZKIELET" ID="{DAD6B3F8-0463-44AF-9A18-2CC1638C5597}" ShortID="273894503">
+					<ChildrenList>
+						<Event Name="Skeleton_Defeat" ID="{8D48B589-B448-496D-84F3-6B38B02D61FF}">
+							<ChildrenList>
+								<Action Name="" ID="{342349A6-B538-4F83-98A3-E82054E0D82A}" ShortID="363388752">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skeleton_Defeat" ID="{AB50A73B-7312-42F2-B197-125E54934D29}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Skeleton_Revolver" ID="{541781B4-4471-40D2-9B89-7C114803B82E}">
+							<ChildrenList>
+								<Action Name="" ID="{0E1663E5-8944-4CDB-AD1D-09899B3060BD}" ShortID="888741997">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skeleton_Revolver" ID="{4E0E78BA-EF79-4E92-991C-A37F3CB6E484}" WorkUnitID="{62C27A93-1070-4129-82F5-B97F4C281550}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Music_States" ID="{D551E5EC-041B-404B-BB59-DDAAD5E68C6F}">
+					<ChildrenList>
+						<Action Name="" ID="{5FB93D4B-AE0C-46EB-80AE-6ACFFD57E6D8}" ShortID="433733856">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music 2" ID="{2F5F5843-5F7B-42F9-95F6-CA47FC8D3E20}" WorkUnitID="{96215092-6FF7-4CD1-82AA-391602339AA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	233780583	Duch_Atak			\Default Work Unit\DUCH\Duch_Atak	
 	268474196	Latarnia_Ladowanie			\Default Work Unit\PROPS\Latarnia\Latarnia_Ladowanie	
 	304274113	Duch_Defeat			\Default Work Unit\DUCH\Duch_Defeat	
+	310267878	Boss_Bumerang			\Default Work Unit\BYK (BOSS)\Boss_Bumerang	
 	512941277	Bohater_Shotgun			\Default Work Unit\BOHATER\Bohater_Shotgun	
 	649649136	Footsteps_Skeleton			\Default Work Unit\Footsteps_Skeleton	
 	1067633203	Boss_Floating			\Default Work Unit\BYK (BOSS)\Boss_Floating	
@@ -19,13 +20,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	1949405673	Byk_Szarza			\Default Work Unit\BYK (BOSS)\Byk_Szarza	
 	2036585953	Money_Drop			\Default Work Unit\PROPS\Money\Money_Drop	
 	2181161180	Duch_Odkrycie			\Default Work Unit\DUCH\Duch_Odkrycie	
-	2331497394	Skeleton_Revolver			\Default Work Unit\Skeleton_Revolver	
+	2331497394	Skeleton_Revolver			\Default Work Unit\SZKIELET\Skeleton_Revolver	
 	2374493969	Duch_Obrazenia			\Default Work Unit\DUCH\Duch_Obrazenia	
+	2378138358	Bohater_Zmiana_Broni			\Default Work Unit\BOHATER\Bohater_Zmiana_Broni	
 	2590602363	Latarnia_Blysk			\Default Work Unit\PROPS\Latarnia\Latarnia_Blysk	
 	2654533227	Latarnia_Skrzypienie			\Default Work Unit\PROPS\Latarnia\Latarnia_Skrzypienie	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3023215539	Artbook			\Default Work Unit\PROPS\Artbook	
-	3782639306	Skeleton_Defeat			\Default Work Unit\Skeleton_Defeat	
+	3782639306	Skeleton_Defeat			\Default Work Unit\SZKIELET\Skeleton_Defeat	
+	3854211589	Kukla			\Default Work Unit\KUKLA\Kukla	
 	3879760884	Duch_Blisko			\Default Work Unit\DUCH\Duch_Blisko	
 	4090646916	Money_Zdobywanie			\Default Work Unit\PROPS\Money\Money_Zdobywanie	
 	4269851612	Footsteps_Cowboy			\Default Work Unit\Footsteps_Cowboy	
@@ -44,6 +47,7 @@ State	ID	Name	State Group			Notes
 	77978275	Ambient	Music			
 	251412225	Shop	Music			
 	748895195	None	Music			
+	1516714793	Boss_Combat	Music			
 	2607556080	Menu	Music			
 	2764240573	Combat	Music			
 
@@ -72,6 +76,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	291342438	Skeleton_Revolver_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_02		70576
 	298912863	Duch_Defeat_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Defeat_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Defeat\Duch_Defeat_04		523220
 	301788757	Skeleton_Revolver_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_04		70576
+	314866402	Boss_Music_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Boss_Music_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Boss_Combat\Boss_Music_01\Boss_Music_01		5821296
 	315419339	Odkrycie_Ducha_03_1	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Odkrycie_Ducha_03.1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Odkrycie\Odkrycie_Ducha_03_1		167310
 	320682329	Shotgun_Bohater_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shotgun_Bohater_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Shotgun\Shotgun_Bohater_03		174978
 	332395475	Shotgun_Bohater_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shotgun_Bohater_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Shotgun\Shotgun_Bohater_02		177588
@@ -83,7 +88,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	420330111	Duch_Jest_Blisko_Skradanie_Nieodkrytego_02	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Jest_Blisko_Skradanie_Nieodkrytego_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Dystans\Skradanie_Nieodkrytego_Ducha\Duch_Jest_Blisko_Skradanie_Nieodkrytego_02		320076
 	421962913	Skeleton_Revolver_06	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_06		71036
 	426850398	fight	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\fight_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Combat\Combat_Am\fight		11289696
-	442075739	Music_The_Ghosts_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Music_The_Ghosts_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Menu\Music_The_Ghosts_01\Music_The_Ghosts_01		33288288
+	430274681	Zmiana_Broni_Bohater_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Zmiana_Broni_Bohater_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Zmiana_Broni_Bohater_01		83364
+	442075739	Music_The_Ghosts_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Music_The_Ghosts_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Explore Track\Music_The_Ghosts_01\Music_The_Ghosts_01		33288288
 	470679861	Skeleton_Defeat_003	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Defeat_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Defeat\Skeleton_Defeat_003		243172
 	476720448	Odkrycie_Ducha_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Odkrycie_Ducha_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Odkrycie\Odkrycie_Ducha_03		200752
 	485566382	Duch_Atak_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Atak_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Atak\Duch_Atak_03		78130
@@ -91,6 +97,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	559544745	Money_Drop_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Money_Drop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Money\Money_Drop_01		46954
 	585073203	Odkrycie_Ducha_03_2	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Odkrycie_Ducha_03.2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Odkrycie\Odkrycie_Ducha_03_2		100424
 	595309439	Money_Zdobywanie_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Money_Zdobywanie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Money\Money_Zdobywanie_01		44196
+	608318703	Kukla_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Kukla_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\KUKLA\Kukla_03		49710
 	624990754	Duch_Defeat_06	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Defeat_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Defeat\Duch_Defeat_06		534228
 	661055294	Duch_Obrazenia_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Obrazenia_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Obrazenia\Duch_Obrazenia_04		111572
 	668333987	Shop_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Shop_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music 2\Shop\Shop_01\Shop_01		8043936
@@ -106,6 +113,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	825066969	Artbook_04	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Artbook_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Artbook\Artbook_04		96566
 	825420739	Bohater_Revolver	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Revolver_Bohater_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bohater\Bohater_Revolver		183284
 	825777639	Duch_Jest_Blisko_Skradanie_Nieodkrytego_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Duch_Jest_Blisko_Skradanie_Nieodkrytego_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DUCH\Duch_Dystans\Skradanie_Nieodkrytego_Ducha\Duch_Jest_Blisko_Skradanie_Nieodkrytego_03		322140
+	836200568	Boss_Bumerang_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Boss_Bumerang_03_02050D65.wem		\Actor-Mixer Hierarchy\Default Work Unit\BYK (BOSS)\Boss_Bumerang_03		592128
 	837435580	Artbook_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Artbook_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\Artbook\Artbook_03		66246
 	866973072	Skeleton_Footsteps_03	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Footsteps_Skeleton\Skeleton_Footsteps_03		28268
 	892180961	Skeleton_Revolver_01	Y:\Documents\WwiseProjects\WWISE_AUDIO_DustnDeath_Main\.cache\Mac\SFX\Skeleton_Revolver_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skeleton\Skeleton_Revolver\Skeleton_Revolver_01		70844

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{756BA574-2B83-4C19-BC52-6125C8FA6403}",
     "Language": "SFX",
-    "Hash": "{53467DB6-7623-46D2-DB17-34EA0A254BA1}",
+    "Hash": "{C68BD2D3-1119-075B-FC71-4FCD6498758D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX_SoundBank",
     "ShortName": "SFX_SoundBank",
     "Path": "SFX_SoundBank.bnk",
@@ -208,6 +208,14 @@
       "CachePath": "SFX/Skeleton_Revolver_04_10C4C929.wem"
      },
      {
+      "Id": "314866402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_Music_01.wav",
+      "CachePath": "SFX/Boss_Music_01_D79FB2B7.wem"
+     },
+     {
       "Id": "315419339",
       "Language": "SFX",
       "Streaming": "false",
@@ -296,6 +304,14 @@
       "CachePath": "SFX/fight_D79FB2B7.wem"
      },
      {
+      "Id": "430274681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Zmiana_Broni_Bohater_01.wav",
+      "CachePath": "SFX/Zmiana_Broni_Bohater_01_10C4C929.wem"
+     },
+     {
       "Id": "442075739",
       "Language": "SFX",
       "Streaming": "false",
@@ -358,6 +374,14 @@
       "Location": "Memory",
       "ShortName": "Money_Zdobywanie_01.wav",
       "CachePath": "SFX/Money_Zdobywanie_01_10C4C929.wem"
+     },
+     {
+      "Id": "608318703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Kukla_03.wav",
+      "CachePath": "SFX/Kukla_03_10C4C929.wem"
      },
      {
       "Id": "624990754",
@@ -478,6 +502,14 @@
       "Location": "Memory",
       "ShortName": "Duch_Jest_Blisko_Skradanie_Nieodkrytego_03.wav",
       "CachePath": "SFX/Duch_Jest_Blisko_Skradanie_Nieodkrytego_03_10C4C929.wem"
+     },
+     {
+      "Id": "836200568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_Bumerang_03.wav",
+      "CachePath": "SFX/Boss_Bumerang_03_02050D65.wem"
      },
      {
       "Id": "837435580",
@@ -664,6 +696,34 @@
        },
        {
         "Id": "926950665"
+       }
+      ]
+     },
+     {
+      "Id": "2378138358",
+      "Name": "Bohater_Zmiana_Broni",
+      "ObjectPath": "\\Events\\Default Work Unit\\BOHATER\\Bohater_Zmiana_Broni",
+      "GUID": "{9EFDF881-4581-4140-9CAB-EC67604CC95C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9440816",
+      "DurationMax": "0.9440816",
+      "MediaRefs": [
+       {
+        "Id": "430274681"
+       }
+      ]
+     },
+     {
+      "Id": "310267878",
+      "Name": "Boss_Bumerang",
+      "ObjectPath": "\\Events\\Default Work Unit\\BYK (BOSS)\\Boss_Bumerang",
+      "GUID": "{94B5E1C5-7D45-4186-A6A3-8E3112D8A392}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.712381",
+      "DurationMax": "6.712381",
+      "MediaRefs": [
+       {
+        "Id": "836200568"
        }
       ]
      },
@@ -946,6 +1006,20 @@
       ]
      },
      {
+      "Id": "3854211589",
+      "Name": "Kukla",
+      "ObjectPath": "\\Events\\Default Work Unit\\KUKLA\\Kukla",
+      "GUID": "{4FF9ED6E-6256-48FD-93AC-04F2B6A64EB9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.562517",
+      "DurationMax": "0.562517",
+      "MediaRefs": [
+       {
+        "Id": "608318703"
+       }
+      ]
+     },
+     {
       "Id": "2590602363",
       "Name": "Latarnia_Blysk",
       "ObjectPath": "\\Events\\Default Work Unit\\PROPS\\Latarnia\\Latarnia_Blysk",
@@ -1033,7 +1107,7 @@
       "Id": "1690668539",
       "Name": "Music_States",
       "ObjectPath": "\\Events\\Default Work Unit\\Music_States",
-      "GUID": "{1281B3F3-F67B-4602-8B10-D14C61239E8E}",
+      "GUID": "{D551E5EC-041B-404B-BB59-DDAAD5E68C6F}",
       "DurationType": "Infinite",
       "SwitchContainers": [
        {
@@ -1085,6 +1159,19 @@
         "MediaRefs": [
          {
           "Id": "442075739"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "1516714793",
+         "GUID": "{0D6D005D-AB91-4F2F-888D-A71F03B8B74A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "314866402"
          }
         ]
        }
@@ -1165,7 +1252,7 @@
      {
       "Id": "3782639306",
       "Name": "Skeleton_Defeat",
-      "ObjectPath": "\\Events\\Default Work Unit\\Skeleton_Defeat",
+      "ObjectPath": "\\Events\\Default Work Unit\\SZKIELET\\Skeleton_Defeat",
       "GUID": "{8D48B589-B448-496D-84F3-6B38B02D61FF}",
       "DurationType": "OneShot",
       "DurationMin": "1.0734468",
@@ -1185,7 +1272,7 @@
      {
       "Id": "2331497394",
       "Name": "Skeleton_Revolver",
-      "ObjectPath": "\\Events\\Default Work Unit\\Skeleton_Revolver",
+      "ObjectPath": "\\Events\\Default Work Unit\\SZKIELET\\Skeleton_Revolver",
       "GUID": "{541781B4-4471-40D2-9B89-7C114803B82E}",
       "DurationType": "OneShot",
       "DurationMin": "0.37677917",
@@ -1238,6 +1325,12 @@
         "GUID": "{54379189-9603-45F0-92D3-7732AB52B0F0}"
        },
        {
+        "Id": "1516714793",
+        "Name": "Boss_Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Boss_Combat",
+        "GUID": "{0D6D005D-AB91-4F2F-888D-A71F03B8B74A}"
+       },
+       {
         "Id": "2607556080",
         "Name": "Menu",
         "ObjectPath": "\\States\\Default Work Unit\\Music\\Menu",
@@ -1276,6 +1369,6 @@
     ]
    }
   ],
-  "FileHash": "{DA439AA6-6CD6-FCD1-0C56-851E3342BA57}"
+  "FileHash": "{1A13D3CC-4CB1-9B72-36BE-B78266017516}"
  }
 }
